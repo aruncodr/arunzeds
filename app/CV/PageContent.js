@@ -40,7 +40,7 @@ function PageContent() {
               <div className='text-[12px] leading-4 font-medium'><span className='text-sm'> M</span>E</div>
             </div>
             <div className={lato.className}>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/'>arunzed.com</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/'>arunzed.com</a></div>
             </div>
 
             <div className='flex pt-1'>
@@ -49,26 +49,70 @@ function PageContent() {
               <div className='text-[12px] leading-4 font-medium'><span className='text-sm'> CV</span></div>
             </div>
             <div className={lato.className}>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>arunzed.com/cv</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>arunzed.com/cv</a></div>
             </div>
 
             <div className='flex pt-1'>
               <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>P</span>ROFILE</div>
             </div>
             <div className={lato.className}>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>Linked.in/aruncodr</a></div>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>github/aruncodr</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>Linked.in/aruncodr</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>github/aruncodr</a></div>
             </div>
             
             <div className='flex pt-1'>
               <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>C</span>ONTACT</div>
             </div>
             <div className={lato.className}>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>Arunkumar - Arunzeds</a></div>
-                <div className='leading-[18px] tracking-wide text-black text-[13px] font-light'><a href='https://arunzeds.com/cv'>9786787507</a></div>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>Pondicherry</a></div>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>arunzeds@gmail  @outlook</a></div>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>aruncodr@gmail  @outlook</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>Arunkumar - Arunzeds</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-[13px] font-light'><a href='https://arunzeds.com/cv'>9786787507</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>Pondicherry</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>arunzeds@gmail  @outlook</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>aruncodr@gmail  @outlook</a></div>
+            </div>
+          </div>
+          {/* ----------------- OTHER PERKS -------------- */}
+        <div className='pt-3'>
+            <h1 className={lato.className}><span className='text-[#666666] text-2xl font-light'>OTHER PERKS</span></h1>
+            {/* ----------------- activities----------- */}
+            
+            <div className=''>
+                <div className='flex text-[13px] font-bold'>
+                  <div>
+                      <span className='text-base'>F</span>OCUS
+                      <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
+                  </div>
+                  <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>L</span>EARN</div>
+                </div>
+                <div className={lato.className}>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'>Continue focusing on Full-Stack Development and DevOps.</div>
+              </div>            
+            </div>
+
+            <div className='pt-1'>
+                <div className='flex text-[13px] font-bold'>
+                  <div>
+                      <span className='text-base'>L</span>ANGUAGES
+                      <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
+                  </div>
+                  <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>C</span>OMMUNICATE</div>
+                </div>
+                <div className={lato.className}>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'>Speaks Native Tamil, Conversational English.</div>
+              </div>            
+            </div>
+
+            <div className='pt-1'>
+                <div className='flex text-[13px] font-bold'>
+                  <div>
+                      <span className='text-base'>M</span>ORE
+                      <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
+                  </div>
+                  <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>F</span>REE <span className='text-sm'>T</span>IME</div>
+                </div>
+                <div className={lato.className}>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'>Likes to Blog, Travel, Photoshoot and Explore Lifestyle.</div>
+              </div>            
             </div>
           </div>
               {/* -------------------- MORE ---------------- */}
@@ -83,12 +127,12 @@ function PageContent() {
             </div>
             <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>R</span>ESUME <span className='text-sm'>B</span>ILUDER</div>
             <div className={lato.className}>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'>Our website helps users create and customize professional resumes, enhancing their job prospects.</div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'>Our website helps users create and customize professional resumes, enhancing their job prospects.</div>
             </div>
-           <div className='pt-0.5 text-[12px] leading-3 font-medium'><span className={lato.className}>3</span>D 
+           <div className='pt-1 text-[12px] leading-3 font-medium'><span className={lato.className}>3</span>D 
             <span className='text-sm'> P</span>ORTFOLIO - Three.js</div>
             <div className={lato.className}>
-                <div className='leading-[18px] tracking-wide text-black text-sm font-light'>A 3D Portfolio is an interactive, three-dimensional digital showcase of my projects.</div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'>A 3D Portfolio is an interactive, three-dimensional digital showcase of my projects.</div>
             </div>
 
         </div>
@@ -150,13 +194,34 @@ function PageContent() {
                 <span className='text-sm'>V</span>ERSION CONTROL</div>
               </div>           
               <div className={lato.className}>
-                <div className='leading-4 tracking-wide text-black text-sm font-light'>
-                  <div className=''>Attentive to UI/UX details and high quality.</div>
+                <div className='tracking-wide text-black text-sm font-light'>
+                  <div className='leading-4'>Attentive to UI/UX details and high quality.</div>
                   <div>Flow on Figma and Adobe Illustator. Fan of Github.</div>
                 </div>
               </div>
             </div>
 
+          </div>
+
+            {/* ----------------- EDUCATION -------------- */}
+            <div className='pt-3'>
+            <h1 className={lato.className}><span className='text-[#666666] text-2xl font-light'>EDUCATION</span></h1>
+            {/* ----------------- B C A ----------- */}
+            <div className=''>
+              <div className='flex'>
+                <div className='text-[13px] font-bold'>
+                      <span className='text-base'>U</span>NDER 
+                      <span className='text-base'> G</span>RADUATE
+                      <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
+                </div>
+                <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>C</span>OMPUTER <span className='text-sm'>S</span>CIENCE</div>
+              </div>
+              <div className='leading--[18px] tracking-wide text-[13px] font-medium'>Bachelor of Computer Applications - B.C.A</div>
+              <div className={lato.className}>
+                <div className='leading--4 tracking-wide text-black text-sm pt-0.5 font-light'>Sri Aravindar Arts and Science College</div>
+                <div className='leading-3 tracking-wide text-black text-sm pt-0.5 font-light'>College in Tamil Nadu</div>
+              </div>
+            </div>
           </div>
 
           {/* ---------------PROJECT EXPERIENCE------------ */}
@@ -180,7 +245,7 @@ function PageContent() {
               </div>
               <div className='leading-4 tracking-wide text-[13px] font-normal'>mothercabs.com</div>
               <div className={lato.className}>
-                <ul role="list" className='leading-[18px] tracking-wide text-black text-sm pt-1 font-light
+                <ul role="list" className='leading--[18px] tracking-wide text-black text-sm pt-1 font-light
                 marker:text-[#666666] list-disc pl-5 space-y-1.5'>
                   <li>A Cab Booking System is essentially an online platform where users can request a taxi ride by selecting their desired vehicle type, 
                   inputting their pickup and drop-off locations</li>
@@ -203,7 +268,7 @@ function PageContent() {
               </div>
               <div className='leading-4 tracking-wide text-[13px] font-normal'>azspecs.com</div>
               <div className={lato.className}>
-                <ul role="list" className='leading-[18px] tracking-wide text-black text-sm pt-1 font-light
+                <ul role="list" className='leading--[18px] tracking-wide text-black text-sm pt-1 font-light
                 marker:text-[#666666] list-disc pl-5 space-y-1.5'>
                   <li>AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.</li>
                   <li>The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
@@ -229,66 +294,13 @@ function PageContent() {
               </div>
               <div className='leading-4 tracking-wide text-[13px] font-normal'>pondystore.com</div>
               <div className={lato.className}>
-                <ul role="list" className='leading-[18px] tracking-wide text-black text-sm pt-1 font-light
+                <ul role="list" className='leading--[18px] tracking-wide text-black text-sm pt-1 font-light
                 marker:text-[#666666] list-disc pl-5 space-y-1.5'>
                   <li>Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. </li>
                   <li>My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.</li>
                 </ul>
               </div>
             </div>
-
-            {/* ----------------- EDUCATION -------------- */}
-          <div className='pt-3'>
-            <h1 className={lato.className}><span className='text-[#666666] text-2xl font-light'>EDUCATION</span></h1>
-            {/* ----------------- B C A ----------- */}
-            <div className=''>
-              <div className='flex'>
-                <div className='text-[13px] font-bold'>
-                      <span className='text-base'>U</span>NDER 
-                      <span className='text-base'> G</span>RADUATE
-                      <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
-                </div>
-                <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>C</span>OMPUTER <span className='text-sm'>S</span>CIENCE</div>
-              </div>
-              <div className='leading-[18px] tracking-wide text-[13px] font-medium'>Bachelor of Computer Applications - B.C.A</div>
-              <div className={lato.className}>
-                <div className='leading-4 tracking-wide text-black text-sm pt-0.5 font-light'>Sri Aravindar Arts and Science College</div>
-                <div className='leading-4 tracking-wide text-black text-sm pt-0.5 font-light'>College in Tamil Nadu</div>
-              </div>
-            </div>
-          </div>
-{/* ----------------- OTHER PERKS -------------- */}
-        <div className='pt-3'>
-            <h1 className={lato.className}><span className='text-[#666666] text-2xl font-light'>OTHER PERKS</span></h1>
-            {/* ----------------- activities----------- */}
-            <div className=''>
-                <div className='flex text-[13px] font-bold'>
-                  <div>
-                      <span className='text-base'>L</span>ANGUAGES
-                      <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
-                  </div>
-                  <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>S</span>PEAKING</div>
-                </div>
-                <div className={lato.className}>
-                <div className='leading-4 tracking-wide text-black text-sm font-light'>Speaks Native Tamil, Conversational English.</div>
-              </div>            
-            </div>
-
-            <div className='pt-1.5'>
-                <div className='flex text-[13px] font-bold'>
-                  <div>
-                      <span className='text-base'>M</span>ORE
-                      <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
-                  </div>
-                  <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>F</span>REE <span className='text-sm'>T</span>IME</div>
-                </div>
-                <div className={lato.className}>
-                <div className='leading-4 tracking-wide text-black text-sm font-light'>Likes to Blog, Travel, Photoshoot and Explore Lifestyle.</div>
-              </div>            
-            </div>
-          </div>
-          
-
 
           </div>
 
