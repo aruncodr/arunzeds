@@ -19,7 +19,7 @@ function PageContent() {
 
       <hr className="h-[1px] mt-2 bg-gray-400 border-0 dark:bg-gray-400" />
 
-      <div className='grid pt-4 grid-cols-3 px-12'>
+      <div className='grid pt-4 grid-cols-3 px-8'>
 
       <div className='FIRSTSECTION'>
         {/* ------------ LINK ------------ */}
@@ -59,7 +59,6 @@ function PageContent() {
                 <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>Linked.in/arunzeds</a></div>
                 <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>github/aruncodr</a></div>
                 <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>pintest/aruncodr</a></div>
-                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>instagram/arun_zeds</a></div>
             </div>
             
             <div className='flex pt-1'>
@@ -113,7 +112,7 @@ function PageContent() {
                   <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>F</span>REE <span className='text-sm'>T</span>IME</div>
                 </div>
                 <div className={lato.className}>
-                <div className='leading--[18px] tracking-wide text-black text-sm font-light'>Likes to Blog, Travel, Photoshoot and Explore Lifestyle.</div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'>To blog, travel, take photographs, and explore men’s lifestyles.</div>
               </div>            
             </div>
           </div>
@@ -212,16 +211,16 @@ function PageContent() {
             <div className=''>
               <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'></span>UNDER 
-                      <span className='text-base'> </span>GRADUATE
-                      <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
+                      <span className='text-base leading-5'></span>UNDER 
+                      <span className='text-base leading-5'> </span>GRADUATE
+                      <span className='text-base leading-3 font-medium'>&nbsp; |&nbsp;</span>
                 </div>
-                <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>C</span>OMPUTER <span className='text-sm'>S</span>CIENCE</div>
+                <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>C</span>OMPUTER <span className='text-sm'>S</span>CIENCE</div>
               </div>
-              <div className='leading--[18px] tracking-wide text-[13px] font-medium'>Bachelor of Computer Applications - B.C.A</div>
+              <div className='leading-[18px] tracking-wide text-[13px] font-medium'>Bachelor of Computer Applications - B.C.A</div>
               <div className={lato.className}>
-                <div className='leading--4 tracking-wide text-black text-sm pt-0.5 font-light'>Sri Aravindar Arts and Science College</div>
-                <div className='leading-3 tracking-wide text-black text-sm pt-0.5 font-light'>College in Tamil Nadu</div>
+                <div className='leading-4 tracking-wide text-black text-sm font-light'>Sri Aravindar Arts and Science College</div>
+                <div className='leading-4 tracking-wide text-black text-sm pt-0.5 font-light'>College in Tamil Nadu</div>
               </div>
             </div>
           </div>
