@@ -17,7 +17,7 @@ function PageContent() {
         </div>
       </div>
 
-      <hr className="h-[1px] mt-2 bg-gray-400 border-0 dark:bg-gray-400" />
+      <div className="h-[1px] mt-2 bg-gray-400 border-1 border-gray-400 dark:bg-gray-400" ></div>
 
       <div className='grid pt-4 grid-cols-3 px-8'>
 
