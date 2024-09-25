@@ -28,7 +28,7 @@ function PageContent() {
 
             <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'>A</span>BOUT 
+                      <span className='text-base'></span>ABOUT 
                       <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
                 </div>
                 <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>A</span>RUN <span className='text-sm'>Z</span>EDS</div>
@@ -56,8 +56,10 @@ function PageContent() {
               <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>P</span>ROFILE</div>
             </div>
             <div className={lato.className}>
-                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>Linked.in/aruncodr</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>Linked.in/arunzeds</a></div>
                 <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>github/aruncodr</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>pintest/aruncodr</a></div>
+                <div className='leading--[18px] tracking-wide text-black text-sm font-light'><a href='https://arunzeds.com/cv'>instagram/arun_zeds</a></div>
             </div>
             
             <div className='flex pt-1'>
@@ -76,39 +78,39 @@ function PageContent() {
             <h1 className={lato.className}><span className='text-[#666666] text-2xl font-light'>OTHER PERKS</span></h1>
             {/* ----------------- activities----------- */}
             
-            <div className=''>
+            <div className='pt-0.5'>
                 <div className='flex text-[13px] font-bold'>
                   <div>
-                      <span className='text-base'>F</span>OCUS
-                      <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
+                      <span className='text-base leading-5'></span>FOCUS
+                      <span className='text-base leading-5 font-medium'>&nbsp;|&nbsp;</span>
                   </div>
-                  <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>L</span>EARN</div>
+                  <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>L</span>EARNING</div>
                 </div>
                 <div className={lato.className}>
                 <div className='leading--[18px] tracking-wide text-black text-sm font-light'>Continue focusing on Full-Stack Development and DevOps.</div>
               </div>            
             </div>
 
-            <div className='pt-1'>
+            <div className='pt-1.5'>
                 <div className='flex text-[13px] font-bold'>
                   <div>
-                      <span className='text-base'>L</span>ANGUAGES
-                      <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
+                      <span className='text-base leading-5'></span>LANGUAGES
+                      <span className='text-base leading-5 font-medium'>&nbsp;|&nbsp;</span>
                   </div>
-                  <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>C</span>OMMUNICATE</div>
+                  <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>C</span>OMMUNICATE</div>
                 </div>
                 <div className={lato.className}>
                 <div className='leading--[18px] tracking-wide text-black text-sm font-light'>Speaks Native Tamil, Conversational English.</div>
               </div>            
             </div>
 
-            <div className='pt-1'>
+            <div className='pt-1.5'>
                 <div className='flex text-[13px] font-bold'>
                   <div>
-                      <span className='text-base'>M</span>ORE
-                      <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
+                      <span className='text-base leading-5'></span>MORE
+                      <span className='text-base leading-5 font-medium'>&nbsp;|&nbsp;</span>
                   </div>
-                  <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>F</span>REE <span className='text-sm'>T</span>IME</div>
+                  <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>F</span>REE <span className='text-sm'>T</span>IME</div>
                 </div>
                 <div className={lato.className}>
                 <div className='leading--[18px] tracking-wide text-black text-sm font-light'>Likes to Blog, Travel, Photoshoot and Explore Lifestyle.</div>
@@ -120,7 +122,7 @@ function PageContent() {
           <h1 className={lato.className}><span className='text-[#666666] text-2xl font-light'>MORE</span></h1>
           <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'>C</span>RAFTS 
+                      <span className='text-base'></span>CRAFTS 
                       <span className='text-base font-medium'>&nbsp;|&nbsp;</span>
                 </div>
                 <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>P</span>ROJECTS</div>
@@ -158,8 +160,8 @@ function PageContent() {
             <div className=''>
             <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'>F</span>RONT 
-                      <span className='text-base'> E</span>ND
+                      <span className='text-base'></span>FRONT 
+                      <span className='text-base'> </span>END
                       <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
                 </div>
                 <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>L</span>IBRARIES</div>
@@ -172,8 +174,8 @@ function PageContent() {
             <div className='pt-1.5'>
             <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'>B</span>ACK
-                      <span className='text-base'> E</span>ND
+                      <span className='text-base'></span>BACK
+                      <span className='text-base'> </span>END
                       <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
                 </div>
                 <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>T</span>ECHNOLOGIES</div>
@@ -186,7 +188,7 @@ function PageContent() {
             <div className='pt-1.5'>
             <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'>D</span>ESIGNING
+                      <span className='text-base'></span>DESIGNING
                       <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
                 </div>
                 <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>T</span>OOLS 
@@ -210,8 +212,8 @@ function PageContent() {
             <div className=''>
               <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'>U</span>NDER 
-                      <span className='text-base'> G</span>RADUATE
+                      <span className='text-base'></span>UNDER 
+                      <span className='text-base'> </span>GRADUATE
                       <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
                 </div>
                 <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>C</span>OMPUTER <span className='text-sm'>S</span>CIENCE</div>
@@ -231,8 +233,8 @@ function PageContent() {
             <div className=''>
               <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'>M</span>OTHER 
-                      <span className='text-base'> C</span>ABS
+                      <span className='text-base'></span>MOTHER 
+                      <span className='text-base'> </span>CABS
                       <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
                 </div>
                 <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>
@@ -259,8 +261,8 @@ function PageContent() {
             <div className='pt-1.5'>
               <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'>AZ</span>
-                      <span className='text-base'> S</span>PCES
+                      <span className='text-base'></span>AZ
+                      <span className='text-base'> </span>SPCES
                       <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
                 </div>
                 <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>M</span>OBILE 
@@ -280,8 +282,8 @@ function PageContent() {
             <div className='pt-1.5'>
               <div className='flex'>
                 <div className='text-[13px] font-bold'>
-                      <span className='text-base'>P</span>ONDY 
-                      <span className='text-base'> S</span>TORE
+                      <span className='text-base'></span>PONDY 
+                      <span className='text-base'> </span>STORE
                       <span className='text-base font-medium'>&nbsp; |&nbsp;</span>
                 </div>
                 <div className='text-[12px] leading-[26px] font-medium'><span className='text-sm'>E</span>XPLORE <span className='text-sm'>P</span>ONDICHERY</div>
