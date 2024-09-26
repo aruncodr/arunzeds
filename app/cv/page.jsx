@@ -93,10 +93,10 @@ function PageContent() {
             <div className='pt-1.5'>
                 <div className='flex text-[13px] font-bold'>
                   <div>
-                      <span className='text-base leading-5'></span>LANGUAGES
+                      <span className='text-base leading-5'></span>COMMUNICATE
                       <span className='text-base leading-5 font-medium'>&nbsp;|&nbsp;</span>
                   </div>
-                  <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>C</span>OMMUNICATE</div>
+                  <div className='text-[12px] leading-3 font-medium'><span className='text-sm'>L</span>ANGUAGES</div>
                 </div>
                 <div className={lato.className}>
                 <div className='leading--[18px] tracking-wide text-black text-sm font-light'>Speaks Native Tamil, Conversational English.</div>
