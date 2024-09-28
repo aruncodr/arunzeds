@@ -53,7 +53,7 @@ function PageContent() {
             <p>
             <span className={lato.className}><a href='https://arunzeds.com/cv'>Arunkumar - Arunzeds</a></span><br />
             <span className={lato.className}><a href='https://arunzeds.com/cv'>9786787507</a></span><br />
-            <span className={lato.className}><a href='https://arunzeds.com/cv'>Pondichery</a></span><br />
+            <span className={lato.className}><a href='https://arunzeds.com/cv'>Pondicherry</a></span><br />
             <span className={lato.className}><a href='https://arunzeds.com/cv'>arunzeds@gmail @outlook</a></span><br />
             <span className={lato.className}><a href='https://arunzeds.com/cv'>aruncodr@gmail @outlook</a></span><br />
             </p>
