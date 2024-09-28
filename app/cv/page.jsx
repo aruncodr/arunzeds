@@ -85,12 +85,12 @@ function PageContent() {
           <h2 className=''>
             <span className='head-bold'>CRAFTS</span> &nbsp;|&nbsp; 
             P<span className='head-xs '>ROJECTS</span>
-            <div className='pt-1.5 text-[#666666]'>
+            <div className='pt-1.5 text-[#666666] text-[13px]'>
             R<span className='head-xs'>ESUME </span>
             B<span className='head-xs'>UILDER</span></div>
           </h2>
           <p className={lato.className}>Our website helps users create and customize professional resumes, enhancing their job prospects.</p>
-          <h2 className='text-[#666666]'>
+          <h2 className='text-[#666666] text-[13px]'>
             3<span className='head-xs'>D </span>
             P<span className='head-xs'>ORTFOLIO - </span>
             T<span className='head-xs'>hree JS</span>
