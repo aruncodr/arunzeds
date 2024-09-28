@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #a4a4a4;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #a4a4a4;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* CV PAGES CUSTOM CLASS */
+
+@layer components {
+  h1 {
+    @apply leading-none text-[#525659] text-2xl pt-3 font-light;
+  }
+  h2 {
+    @apply leading-none pt-2 font-medium text-sm;
+  }
+  .head-bold {
+    @apply leading-none font-bold;
+  }
+  .head-xs {
+    @apply leading-none text-xs;
+  }
+  h3 {
+    @apply leading-none pb-0.5 pt-1.5 tracking-wide text-[13px] font-medium;
+  }
+  p {
+    @apply leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light;
+  }
+  ul {
+    @apply leading-5 pb-1 text-black tracking-wide text-sm font-light marker:text-[##525659] list-disc pl-6 space-y-0.5;
+  }
+}
