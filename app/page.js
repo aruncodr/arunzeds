@@ -8,11 +8,11 @@ export default function Home() {
   const router = useRouter()
 
   return (
-<div className='bg-white flex flex-col'>
-    <button className='h-64 w- bg-teal-500' type="button" onClick={() => router.push('./cv/')}>
+<div className='bg-white flex flex-col '>
+    <button className='h-64 rounded-xl w- bg-teal-500' type="button" onClick={() => router.push('./cv/')}>
       Show My CV
     </button>
-    <button className='h-64 w- bg-blue-500' type="button" onClick={() => router.push('./cv0/')}>
+    <button className='h-64 rounded-xl w- bg-blue-500' type="button" onClick={() => router.push('./cv0/')}>
       Show My CV
     </button>
 </div>
