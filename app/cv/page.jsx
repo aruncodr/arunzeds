@@ -82,15 +82,15 @@ function PageContent() {
               {/* -------------------- MORE ---------------- */}
       <div>
           <h1 className={lato.className}>MORE</h1>
-          <h2>
+          <h2 className=''>
             <span className='head-bold'>CRAFTS</span> &nbsp;|&nbsp; 
-            P<span className='head-xs'>ROJECTS</span>
-            <div className='pt-1'>
+            P<span className='head-xs '>ROJECTS</span>
+            <div className='pt-1.5 text-[#666666]'>
             R<span className='head-xs'>ESUME </span>
             B<span className='head-xs'>UILDER</span></div>
           </h2>
           <p className={lato.className}>Our website helps users create and customize professional resumes, enhancing their job prospects.</p>
-          <h2>
+          <h2 className='text-[#666666]'>
             3<span className='head-xs'>D </span>
             P<span className='head-xs'>ORTFOLIO - </span>
             T<span className='head-xs'>hree JS</span>
@@ -134,7 +134,7 @@ function PageContent() {
             C<span className='head-xs'>OMPUTER </span>
             S<span className='head-xs'>CIENCE</span><br />
           </h2>
-          <h3 className='pt-1.5'>Bachelor of Computer Applications - B.C.A</h3>
+          <div className='leading-none pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium'>Bachelor of Computer Applications - B.C.A</div>
           <p className={lato.className}>Sri Aravindar Arts and Science College<br />College in Tamil Nadu</p>
       </div>
       {/* ---------------PROJECT EXPERIENCE------------ */}

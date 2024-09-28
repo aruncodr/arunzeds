@@ -33,7 +33,7 @@ body {
     @apply leading-none text-[#525659] text-2xl pt-3 font-light;
   }
   h2 {
-    @apply leading-none pt-2 font-medium text-sm;
+    @apply leading-none pt-2 font-semibold text-sm;
   }
   .head-bold {
     @apply leading-none font-bold;
@@ -42,12 +42,12 @@ body {
     @apply leading-none text-xs;
   }
   h3 {
-    @apply leading-none pb-0.5 pt-1.5 tracking-wide text-[13px] font-medium;
+    @apply leading-none pb-1 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium;
   }
   p {
     @apply leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light;
   }
   ul {
-    @apply leading-5 pb-1 text-black tracking-wide text-sm font-light marker:text-[##525659] list-disc pl-6 space-y-0.5;
+    @apply leading-5 pb-1 text-black tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-6 space-y-0.5;
   }
 }
