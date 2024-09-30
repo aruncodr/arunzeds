@@ -115,7 +115,7 @@ function PageContent() {
             <span className='head-bold'>END</span> &nbsp;|&nbsp; 
             T<span className='head-xs'>ECHNOLOGIES </span>
           </h2>
-          <p className={lato.className}>Node.js, Mongo db, App write</p>
+          <p className={lato.className}>Node.js, Mongo db, Appwrite</p>
           <h2>
             <span className='head-bold'>ADD ON</span> &nbsp;|&nbsp; 
             D<span className='head-xs'>ESIGNING </span> &nbsp;|&nbsp; 
@@ -176,7 +176,7 @@ function PageContent() {
             T<span className='head-xs'>ORSIUM</span> &nbsp;|&nbsp; 
             S<span className='head-xs'>HOPPING</span>
           </h2>
-          <h3 className={lato.className}>pondystore.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Astro &nbsp;|&nbsp; Next js &nbsp;|&nbsp; App write</h3>
+          <h3 className={lato.className}>pondystore.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Astro &nbsp;|&nbsp; App write</h3>
           <ul role="list" className={lato.className}>
             <li>Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. </li>
             <li>My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.</li>
