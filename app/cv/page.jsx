@@ -31,6 +31,7 @@ function PageContent() {
                A<span className='head-xs'>RUN </span>
                Z<span className='head-xs'>EDS</span>
             </h2>
+            <h2>P<span className='head-xs'>ORTFOLIO</span></h2>
             <p className={lato.className}><a href='https://arunzeds.com/'>arunzeds.com</a></p>
 
             <h2>
@@ -77,7 +78,7 @@ function PageContent() {
             F<span className='head-xs'>REE </span>
             T<span className='head-xs'>IME</span>
           </h2>
-          <p className={lato.className}>To Blog, Travel, take Photographs, and Explore Men's Lifestyles.</p>
+          <p className={lato.className}>To Blog, Travel, take Photo-graphs, and Explore Men's Lifestyles.</p>
       </div>
               {/* -------------------- MORE ---------------- */}
       <div>
@@ -99,8 +100,9 @@ function PageContent() {
 
       </div>
     </div>
-
-    {/* ------------ Second column ------------ */}
+    {/* **************************** Second column *************************************************** */}
+    {/* **************************** Second column *************************************************** */}
+    {/* **************************** Second column *************************************************** */}
     <div className='col-span-2 pl-4 pr-2'>
       {/* ------------------SKILLS---------------- */}
       <div>
@@ -116,15 +118,15 @@ function PageContent() {
             <span className='head-bold'>END</span> &nbsp;|&nbsp; 
             T<span className='head-xs'>ECHNOLOGIES </span>
           </h2>
-          <p className={lato.className}>Node.js, No SQL databases (Mongo db)</p>
+          <p className={lato.className}>Node.js, Mongo db, App write</p>
           <h2>
-            <span className='head-bold'>DESIGNING</span> &nbsp;|&nbsp; 
-            T<span className='head-xs'>OOLS </span> &nbsp;|&nbsp; 
-            V<span className='head-xs'>ERSION </span>
-            C<span className='head-xs'>ONTROL</span>
+            <span className='head-bold'>ADD ON</span> &nbsp;|&nbsp; 
+            D<span className='head-xs'>ESIGNING </span> &nbsp;|&nbsp; 
+            T<span className='head-xs'>ECH</span>
 
           </h2>
-          <p className={lato.className}>Attentive to UI/UX details and high quality.<br />Flow on Figma and Adobe Illustator. Fan of Github.</p>
+          <p className={lato.className}>Attentive to UI/UX details and high quality.<br />Flow on Figma and Adobe Illustator. Fan of Github.
+          <br />Hands on Search engine optimization.</p>
       </div>
       {/* ----------------- EDUCATION -------------- */}
       <div>
@@ -144,16 +146,17 @@ function PageContent() {
             <span className='head-bold'>MOTHER CABS</span> &nbsp;|&nbsp; 
             C<span className='head-xs'>AB </span>
             B<span className='head-xs'>OOKING</span> &nbsp;|&nbsp; 
-            W<span className='head-xs'>EBSITE</span>
-
+            G<span className='head-xs'>OOGLE </span>
+            A<span className='head-xs'>PI</span>
           </h2>
-          <h3>mothercabs.com</h3>
-          <ul role="list" className=''>
+          <h3 className={lato.className}>mothercabs.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; App write</h3>
+          <ul role="list" className={lato.className}>
             <li>A Cab Booking System is essentially an online platform where users can request a taxi ride by selecting their desired vehicle type, 
-                inputting their pickup and drop-off locations</li>
-            <li>The system automatically notify to my client authorized drivers to pick them up.</li>
-            <li>Providing features like estimated fare calculation , allowing customers to easily schedule trips and receive updates on 
+                input ting their pickup and drop-off locations.</li>
+            
+            <li>Providing features like estimated fare calculation, allowing custo mers to easily schedule trips and receive updates on 
                 their ride status.</li>
+            <li> The system automatically notify to my client authorized drivers to pick them up.</li>
           </ul>
 
           <h2>
@@ -162,8 +165,8 @@ function PageContent() {
             S<span className='head-xs'>PECIFICATION </span>
             W<span className='head-xs'>EBSITE</span>
           </h2>
-          <h3>azspecs.com</h3>
-          <ul role="list" className=''>
+          <h3 className={lato.className}>azspecs.com&nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Node.js &nbsp;|&nbsp; Mongo db</h3>
+          <ul role="list" className={lato.className}>
             <li>AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.</li>
             <li>The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
                 like display, processor, camera, battery, and other hardware components.</li>
@@ -176,8 +179,8 @@ function PageContent() {
             T<span className='head-xs'>ORSIUM</span> &nbsp;|&nbsp; 
             S<span className='head-xs'>HOPPING</span>
           </h2>
-          <h3>pondystore.com</h3>
-          <ul role="list" className=''>
+          <h3 className={lato.className}>pondystore.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Astro &nbsp;|&nbsp; Next js &nbsp;|&nbsp; App write</h3>
+          <ul role="list" className={lato.className}>
             <li>Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. </li>
             <li>My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.</li>
           </ul>
