@@ -75,7 +75,7 @@ function PageContent() {
             F<span className='head-xs'>REE </span>
             T<span className='head-xs'>IME</span>
           </h2>
-          <p className={lato.className}>To Blog, Travel, take Photo-graphs, and Explore Men's Lifestyles.</p>
+          <p className={lato.className}>To Blog, Travel, take Photo graphs, and Explore Men's Lifestyles.</p>
       </div>
               {/* -------------------- MORE ---------------- */}
       <div>
