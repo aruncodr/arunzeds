@@ -7,7 +7,7 @@ const inter = Raleway({ subsets: ['latin']})
 
 export const metadata = {
   title: 'Portfolio | arun zeds ',
-  description: "Hi, I’m Arun Zeds  a web developer with a passion for crafting innovative website with great create user experience. Outside of coding, I love photography and exploring men's lifestyles. Let’s connect!",
+  description: "Hi,I'm Arun Zeds I'm a 25 year-old passionate fullstack web developer dedicated to turning ideas into creative solutions. I specialize in creating seamless and intuitive user experiences. I'm involved in every step of the process: from discovery and design to development, testing, and deployment. I focus on delivering high-quality, scalable results that drive positive user experiences. Let’s connect!",
 }
 
 export default function RootLayout({ children }) {
