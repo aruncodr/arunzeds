@@ -12,7 +12,7 @@ export default function Home() {
     <button className='h-64 bg-teal-500' type="button" onClick={() => router.push('./cv/')}>
       Show My CV
     </button>
-    <button className='h-64 bg-blue-500' type="button" onClick={() => router.push('./cv0/')}>
+    <button className='h-64 bg-blue-500' type="button" onClick={() => router.push('./cv1/')}>
       Show My CV
     </button>
 </div>

@@ -28,20 +28,18 @@ function PageContent() {
             <h1 className={lato.className}>LINKS</h1>
             <h2>
               <span className='head-bold'>ABOUT</span> &nbsp;|&nbsp; 
-               A<span className='head-xs'>RUN </span>
-               Z<span className='head-xs'>EDS</span>
+              P<span className='head-xs'>ORTFOLIO</span>
             </h2>
-            <h2>P<span className='head-xs'>ORTFOLIO</span></h2>
             <p className={lato.className}><a href='https://arunzeds.com/'>arunzeds.com</a></p>
 
             <h2>
-               R<span className='head-xs'>ESUME</span> &nbsp;|&nbsp; 
+               <span className='head-bold'>RESUME</span> &nbsp;|&nbsp; 
                CV<span className='head-xs'></span>
             </h2>
             <p className={lato.className}><a href='https://arunzeds.com/cv'>arunzeds.com/cv</a></p>
 
             <h2>
-               P<span className='head-xs'>ROFILE</span>
+               <span className='head-bold'>PROFILE</span>
             </h2>
             <p>
             <span className={lato.className}><a href='https://arunzeds.com/cv'>Pintest/arunzeds</a></span><br />
@@ -49,10 +47,9 @@ function PageContent() {
             <span className={lato.className}><a href='https://arunzeds.com/cv'>github/aruncodr</a></span><br />
             </p>
             <h2>
-               C<span className='head-xs'>ONTACT</span>
+               <span className='head-bold'>CONTACT</span>
             </h2>
             <p>
-            <span className={lato.className}><a href='https://arunzeds.com/cv'>Arunkumar - Arunzeds</a></span><br />
             <span className={lato.className}><a href='https://arunzeds.com/cv'>9786787507</a></span><br />
             <span className={lato.className}><a href='https://arunzeds.com/cv'>Pondicherry</a></span><br />
             <span className={lato.className}><a href='https://arunzeds.com/cv'>arunzeds@gmail @outlook</a></span><br />
@@ -87,14 +84,14 @@ function PageContent() {
             <span className='head-bold'>CRAFTS</span> &nbsp;|&nbsp; 
             P<span className='head-xs '>ROJECTS</span>
             <div className='pt-1.5 text-[#666666] text-[13px]'>
-            R<span className='head-xs'>ESUME </span>
-            B<span className='head-xs'>UILDER</span></div>
+            R<span className='text-[12px]'>ESUME </span>
+            B<span className='text-[12px]'>UILDER</span></div>
           </h2>
           <p className={lato.className}>Our website helps users create and customize professional resumes, enhancing their job prospects.</p>
           <h2 className='text-[#666666] text-[13px]'>
-            3<span className='head-xs'>D </span>
-            P<span className='head-xs'>ORTFOLIO - </span>
-            T<span className='head-xs'>hree JS</span>
+            3<span className='text-[12px]'>D </span>
+            P<span className='text-[12px]'>ORTFOLIO - </span>
+            T<span className='text-[12px]'>hree JS</span>
           </h2>
           <p className={lato.className}>A 3D Portfolio is an interactive, three-dimensional digital showcase of my projects.</p>
 
