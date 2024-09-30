@@ -146,7 +146,7 @@ function PageContent() {
             G<span className='head-xs'>OOGLE </span>
             A<span className='head-xs'>PI</span>
           </h2>
-          <h3 className={lato.className}>mothercabs.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; App write</h3>
+          <h3 className={lato.className}>mothercabs.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Appwrite</h3>
           <ul role="list" className={lato.className}>
             <li>A Cab Booking System is essentially an online platform where users can request a taxi ride by selecting their desired vehicle type, 
                 input ting their pickup and drop-off locations.</li>
