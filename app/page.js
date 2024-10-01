@@ -15,7 +15,7 @@ export default function Home() {
           <div className='font-semibold text-6xl'>
             Hi, I'm Arun Zeds  
           </div>
-          <div className='text-xl pt-4 md:pr-12'>
+          <div className='text-xl pt-4 md:pr-28'>
             Passionate full stack web developer dedicated to turning ideas into creative solutions.
           </div>
           <button className='h-12 mt-4 w-36 mx-auto bg-teal-500 text-white rounded-full' type="button" onClick={() => router.push('./cv/')}>
