@@ -109,7 +109,7 @@ function PageContent() {
             <span className='head-bold'>END</span> &nbsp;|&nbsp; 
             L<span className='head-xs'>IBRARIES </span>
           </h2>
-          <p className={lato.className}>Tailwind, JavaScript, React and Next.js</p>
+          <p className={lato.className}>Tailwind, JavaScript, React, Next.js</p>
           <h2>
             <span className='head-bold'>BACK </span>
             <span className='head-bold'>END</span> &nbsp;|&nbsp; 
