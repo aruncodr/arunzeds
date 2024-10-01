@@ -1,8 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { Poppins,Raleway } from 'next/font/google'
-import './globals.css'
-
 const inter = Raleway({ subsets: ['latin']})
 
 export const metadata = {
@@ -15,7 +13,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <body className={inter.className}>
-
        {children}
       </body>
     </html>
