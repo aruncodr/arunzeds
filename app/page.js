@@ -1,7 +1,5 @@
 "use client"
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
-import Image from "next/image";
 import Header from './Header';
 import { Lato } from 'next/font/google'
 
@@ -10,16 +8,14 @@ const lato = Lato({ subsets: ['latin'],
 
 })
 export default function Home() {
-  const router = useRouter()
 
   return (
 <div className=''>
     <div>
-      <Header/>
     </div>
     
     <div className='flex text-stone-700'>
-      <div className='leftside md:w-1/2 pt-28 pl-12 md:pl-44'>
+      <div className='md:w-1/2 pt-28 pl-12 md:pl-44'>
           <div className={`${lato.className} font-medium tracking-wider text-stone-400 `}>
             <span className={`leading-none`}>/*&nbsp; Fullstack Developer &nbsp;*/</span></div>
           <div className={`${lato.className} font-semibold text-7xl`}>
@@ -36,7 +32,7 @@ export default function Home() {
           </button></Link>
 
       </div>
-      <div className='rightside w-1/2'>
+      <div className='w-1/2'>
 
       </div>
     </div>
