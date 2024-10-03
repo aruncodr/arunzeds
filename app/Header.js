@@ -11,7 +11,7 @@ function Header() {
     <div className='flex text-stone-700 justify-between py-6 px-4 md:px-20'>
         <div className='tracking-widest'>
         <span className='text-[26px] font-semibold tracking-[0.07em] '>AZ</span>
-          <span className='text-4xl font-light text-teal-500 tracking-wide'>&lt;<span className={`${lato.className} font-normal text-3xl`}>/</span>&gt;</span> 
+          <span className='text-4xl font-light text-teal-500 tracking-wide'>&lt;<span className={`${lato.className} font-normal text-[28px]`}>/</span>&gt;</span> 
         </div>
 
         <div className={`${lato.className} flex items-center text-base font-medium`}>
