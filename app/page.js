@@ -20,14 +20,14 @@ export default function Home() {
     
     <div className='flex text-stone-700'>
       <div className='leftside md:w-1/2 pt-28 pl-12 md:pl-44'>
-          <div className={`font-medium tracking-wider text-stone-400 `}>
-            <span className={`${lato.className} leading-none`}>/*&nbsp; Fullstack Developer &nbsp;*/</span></div>
+          <div className={`${lato.className} font-medium tracking-wider text-stone-400 `}>
+            <span className={`leading-none`}>/*&nbsp; Fullstack Developer &nbsp;*/</span></div>
           <div className={`${lato.className} font-semibold text-7xl`}>
             Arun Zeds<span className='text-teal-500'>;</span></div>
           <div className={`${lato.className} pt-2 text-stone-400 text-[13px]`}>
             <div className='font-medium tracking-widest'>PONDICHERRY, INDIA.</div>  
           </div>
-          <div className='pt-2 text-[15px] font-light tracking-wider md:pr-[200px]'><span className={lato.className}>
+          <div className={lato.className}><span className='pt-2 text-[15px] font-light tracking-wider md:pr-[200px]'>
             Full Stack Web Developer, specialized in <span className='text-teal-500 font-medium'>Next js, Tailwind, Appwrite</span> focused on creating efficient and user friendly web solution.</span>
           </div>
           <Link href="./cv">
