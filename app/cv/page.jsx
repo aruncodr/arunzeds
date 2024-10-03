@@ -53,7 +53,6 @@ function PageContent() {
             <span className={lato.className}><a href='https://arunzeds.com/cv'>9786787507</a></span><br />
             <span className={lato.className}><a href='https://arunzeds.com/cv'>Pondicherry</a></span><br />
             <span className={lato.className}><a href='https://arunzeds.com/cv'>arunzeds@gmail @outlook</a></span><br />
-            <span className={lato.className}><a href='https://arunzeds.com/cv'>aruncodr@gmail @outlook</a></span><br />
             </p>
       </div>
 
@@ -162,7 +161,7 @@ function PageContent() {
             S<span className='head-xs'>PECIFICATION </span>
             W<span className='head-xs'>EBSITE</span>
           </h2>
-          <h3 className={lato.className}>azspecs.com&nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Node.js &nbsp;|&nbsp; Mongo db</h3>
+          <h3 className={lato.className}>azspecs.com&nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
           <ul role="list" className={lato.className}>
             <li>AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.</li>
             <li>The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
@@ -176,7 +175,7 @@ function PageContent() {
             T<span className='head-xs'>ORSIUM</span> &nbsp;|&nbsp; 
             S<span className='head-xs'>HOPPING</span>
           </h2>
-          <h3 className={lato.className}>pondystore.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Astro &nbsp;|&nbsp; Appwrite</h3>
+          <h3 className={lato.className}>pondystore.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Appwrite</h3>
           <ul role="list" className={lato.className}>
             <li>Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. </li>
             <li>My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.</li>

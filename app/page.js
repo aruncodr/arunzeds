@@ -2,6 +2,12 @@
 import { useRouter } from 'next/navigation'
 import Image from "next/image";
 import Header from './Header';
+import { Lato } from 'next/font/google'
+
+const lato = Lato({ subsets: ['latin'],
+  weight: ['100','300','400','700','900'],
+
+})
 export default function Home() {
   const router = useRouter()
 
@@ -10,16 +16,21 @@ export default function Home() {
     <div>
       <Header/>
     </div>
-    <div className='flex'>
-      <div className='leftside md:w-1/2 pt-32 pl-6 md:pl-24'>
-          <div className='font-semibold text-6xl'>
-            Hi, I'm Arun Zeds  
+    
+    <div className='flex text-stone-700'>
+      <div className='leftside md:w-1/2 pt-28 pl-12 md:pl-44'>
+          <div className={`font-medium tracking-wider text-stone-400 `}>
+            <span className={`${lato.className} leading-none`}>/*&nbsp; Fullstack Developer &nbsp;*/</span></div>
+          <div className={`${lato.className} font-semibold text-7xl`}>
+            Arun Zeds<span className='text-teal-500'>;</span></div>
+          <div className={`${lato.className} pt-2 text-stone-400 text-[13px]`}>
+            <div className='font-medium tracking-widest'>PONDICHERRY, INDIA.</div>  
           </div>
-          <div className='text-xl pt-4 md:pr-28'>
-            Passionate full stack web developer dedicated to turning ideas into creative solutions.
+          <div className='pt-2 text-[15px] font-light tracking-wider md:pr-[200px]'><span className={`${lato.className}`}>
+            Full Stack Web Developer, specialized in <span className='text-teal-500 font-medium'>Next js, Tailwind, Appwrite</span> focused on creating efficient and user friendly web solution.</span>
           </div>
-          <button className='h-12 mt-4 w-36 mx-auto bg-teal-500 text-white rounded-full' type="button" onClick={() => router.push('./cv/')}>
-            Show My CV
+          <button className='mt-4 h-10 w-36 text-[15px] mx-auto bg-teal-500 text-white rounded-lg' type="button" onClick={() => router.push('./cv/')}>
+            getProject&nbsp; (&nbsp; )
           </button>
 
       </div>
