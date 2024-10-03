@@ -26,12 +26,13 @@ export default function Home() {
           <div className={`${lato.className} pt-2 text-stone-400 text-[13px]`}>
             <div className='font-medium tracking-widest'>PONDICHERRY, INDIA.</div>  
           </div>
-          <div className='pt-2 text-[15px] font-light tracking-wider md:pr-[200px]'><span className={`${lato.className}`}>
+          <div className='pt-2 text-[15px] font-light tracking-wider md:pr-[200px]'><span className={lato.className}>
             Full Stack Web Developer, specialized in <span className='text-teal-500 font-medium'>Next js, Tailwind, Appwrite</span> focused on creating efficient and user friendly web solution.</span>
           </div>
-          <button className='mt-4 h-10 w-36 text-[15px] mx-auto bg-teal-500 text-white rounded-lg' type="button" onClick={() => router.push('./cv/')}>
+          <Link href="./cv">
+          <button className='mt-4 h-10 w-36 text-[15px] mx-auto bg-teal-500 text-white rounded-lg'>
             getProject&nbsp; (&nbsp; )
-          </button>
+          </button></Link>
 
       </div>
       <div className='rightside w-1/2'>
