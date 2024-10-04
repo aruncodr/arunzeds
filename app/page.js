@@ -10,26 +10,42 @@ const lato = Lato({ subsets: ['latin'],
 export default function Home() {
 
   return (
-<div className=''>
+<div className='bg-stone-50 h-[1098px] text-stone-600'>
     <div>
       <Header/>
     </div>
     
-    <div className='flex text-stone-700'>
+    <div className='flex '>
       <div className='md:w-1/2 pt-28 pl-12 md:pl-44'>
-          <div className={`${lato.className} font-medium tracking-wider text-stone-400 `}>
-            <span className={`leading-none`}>&nbsp; Fullstack Developer &nbsp;</span></div>
-          <div className={`${lato.className} font-semibold text-7xl`}>
+
+
+          <div className={`${lato.className} leading-none font-semibold text-[76px]`}>
             Arun Zeds<span className='text-teal-500'>;</span></div>
-          <div className={`${lato.className} pt-2 text-stone-400 text-[13px]`}>
-            <div className='font-medium tracking-widest'>PONDICHERRY, INDIA.</div>  
+
+            {/* h1 - 7xl | h2 - xs | test - 14px */}
+            <div className='leading-none tracking-widest text-[13px] text-stone-400 pt-2.5 font-semibold'>
+              FULL STACK DEVELOPER&nbsp;<span className='text--teal-500'>|</span>&nbsp;PONDICHERRY, INDIA
+            </div>
+
+          <div className={`${lato.className} pt-1.5 pb-0.5 text-sm text-[0.905rem] font-[400] tracking-wider md:w-[360px]`}>
+            
+            <div className='text-teal-500 pt-0.5 text--[14px] font-semibold'>
+              Desc<snap className="font-semibold">&nbsp; (&nbsp; )</snap>
+              <span className='text-teal-500 text--[14px] font-semibold'>&nbsp; &#123;</span>
+            </div>
+            <div className='leading-[22px] text-stone-600'>
+              Specialized in <span className='text-teal-500 font-normal'>Tailwind, Next js, App write</span> focused on creating efficient and user 
+              friendly web solution.
+              <div className='text-teal-500 text--[14px] font-semibold'>&#125;</div>
+            </div>
+
           </div>
-          <div className={lato.className}><span className='pt-2 text-[15px] font-light tracking-wider md:pr-[200px]'>
-            Full Stack Web Developer, specialized in <span className='text-teal-500 font-medium'>Next js, Tailwind, Appwrite</span> focused on creating efficient and user friendly web solution.</span>
-          </div>
+
+
+
           <Link href="./cv">
-          <button className='mt-4 h-10 w-36 text-[15px] mx-auto bg-teal-500 text-white rounded-lg'>
-            getProject&nbsp; (&nbsp; )
+          <button className='mt-2 h-10 w-36 text-[15px] mx-auto bg-teal-500 text-white rounded-lg'>
+            getProject<snap className="font-semibold">&nbsp; (&nbsp; )</snap>
           </button></Link>
 
       </div>
