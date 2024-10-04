@@ -20,7 +20,7 @@ export default function Home() {
     
     <div className='flex  h-[680px]'>
       <div className='md:w-1/2 pt-28 pl-12 md:pl-28'>
-          <div className={`${lato.className} leading-none font-semibold text-3xl md:text-[76px]`}>
+          <div className={`${lato.className} leading-none font-semibold text-5xl md:text-[76px]`}>
               Arun Zeds<span className='text-teal-500'>;</span>
           </div>
             {/* h1 - 7xl | h2 - xs | test - 14px */}
@@ -56,7 +56,7 @@ export default function Home() {
       <div className={`${lato.className} pl-8 pb-12 text--center text-3xl font-medium `}>
         Work<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span>
       </div>
-      <div className='md:flex '>
+      <div className='md:flex'>
         <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
             <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/land1.png" width={500} height={500}></Image>
             <div className={`${mont.className} pt-4 text-xl text-stone-500 font-medium`}>
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-auto p-5 md:pt-8 w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
               <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/land2.png" width={500} height={500}></Image>
             </div>
@@ -122,7 +122,7 @@ export default function Home() {
               <div className="bg-stone-200 rounded-full py-0.5 px-3">App write</div>
             </div>
         </div>
-        <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-auto p-5 md:pt-8 w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
               <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/land4.png" width={500} height={500}></Image>
             </div>
