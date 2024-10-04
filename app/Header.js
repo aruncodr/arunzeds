@@ -8,7 +8,7 @@ const lato = Lato({ subsets: ['latin'],
 
 function Header() {
   return (
-    <div className='flex text-stone-600 justify-between py-6 px-4 md:px-20'>
+    <div className='flex text-stone-600 justify-between py-6 px-4 '>
 
         <div className='flex tracking-widest'>
           <div className='text-[26px] font-semibold tracking-[0.07em'>az</div>
