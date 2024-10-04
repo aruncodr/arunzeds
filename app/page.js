@@ -20,7 +20,7 @@ export default function Home() {
     
     <div className='flex  h-[680px]'>
       <div className='md:w-1/2 pt-28 pl-12 md:pl-28'>
-          <div className={`${lato.className} leading-none font-semibold text-[76px]`}>
+          <div className={`${lato.className} leading-none font-semibold text-3xl md:text-[76px]`}>
               Arun Zeds<span className='text-teal-500'>;</span>
           </div>
             {/* h1 - 7xl | h2 - xs | test - 14px */}
