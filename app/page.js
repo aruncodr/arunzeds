@@ -56,7 +56,7 @@ export default function Home() {
       <div className={`${lato.className} pl-8 pb-12 text--center text-3xl font-medium `}>
         Work<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span>
       </div>
-      <div className='flex '>
+      <div className='md:flex '>
         <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
             <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/land1.png" width={500} height={500}></Image>
             <div className={`${mont.className} pt-4 text-xl text-stone-500 font-medium`}>
@@ -99,7 +99,7 @@ export default function Home() {
 
       </div>
       {/* ---------------- 2 FLEX ----------------- */}
-    <div className='flex pt-12'>
+    <div className='md:flex pt-12'>
       <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
               <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/land3.png" width={500} height={500}></Image>
