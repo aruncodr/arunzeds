@@ -25,7 +25,7 @@ export default function Home() {
           </div>
             {/* h1 - 7xl | h2 - xs | test - 14px */}
           <div className='leading-none tracking-widest text-[13px] text-stone-400 pt-2.5 font-semibold'>
-              FULL STACK DEVELOPER&nbsp;<span className='text--teal-500'>|</span>&nbsp;PONDICHERRY, INDIA
+              FULL STACK DEVELOPER&nbsp;<span className=''>|</span>&nbsp;PONDICHERRY, INDIA
           </div>
           <div className={`${lato.className} pt-1.5 pb-0.5 text-sm text-[0.905rem] font-[400] tracking-wider md:w-[360px]`}>           
             <div className='text-teal-500 pt-0.5 text--[14px] font-semibold'>
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div className="mx-auto p-5 md:pt-8 w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-auto p-5 pt-8 md:pt-0 w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
               <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/land2.png" width={500} height={500}></Image>
             </div>
@@ -122,7 +122,7 @@ export default function Home() {
               <div className="bg-stone-200 rounded-full py-0.5 px-3">App write</div>
             </div>
         </div>
-        <div className="mx-auto p-5 md:pt-8 w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-auto p-5 pt-8 md:pt-0 w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
               <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/land4.png" width={500} height={500}></Image>
             </div>
