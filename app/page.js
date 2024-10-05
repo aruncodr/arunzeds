@@ -13,16 +13,17 @@ const lato = Lato({ subsets: ['latin'],
 export default function Home() {
 
   return (
-<div className='text-stone-600 //color: rgb(20 184 166); 20,184,166 :  204,251,241'>
+<div className='text-stone-700 //color: rgb(20 184 166); 20,184,166 :  204,251,241'>
 
     <div>
       <Header/>
     </div>
     
     <div className='flex h-[640px]'>
-        <Image className='absolute z-[-2] top-16 right-0' src="/arun.svg" width={900} height={1000}></Image>
+        <Image className='absolute z-[-2] top-[70px] right-0' src="/arun.svg" width={900} height={1000}></Image>
 
-    {/* <div className="absolute top-0 z-[-2] h-screen w-screen rotate-180 bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]" /> */}
+
+    <div className="absolute top-0 z-[-3] w-full rotate-180 bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(202,224,226,.5)_100%)]" />
       {/* ------lower------- */}
 
       {/* -----upper------ */}
@@ -35,7 +36,7 @@ export default function Home() {
               Arun Zeds<span className='text-teal-500'>;</span>
           </div>
             {/* h1 - 7xl | h2 - xs | test - 14px */}
-          <div className='leading-none tracking-widest text-[0.83em] text-stone-400 pt-2.5 font-semibold'>
+          <div className='leading-none tracking-widest text-[0.83em] text-stone-500 pt-2.5 font-semibold'>
               FULL STACK DEVELOPER&nbsp;<span className='text-teal-500'>|</span>&nbsp;PONDICHERRY, INDIA
           </div>
           <div className={`${lato.className} pt-1.5 pb-0.5 text-sm text-[1.20rem] font-[400] tracking-wider md:w-[360px]`}>           
@@ -43,7 +44,7 @@ export default function Home() {
               Desc<snap className="font-semibold">&nbsp; (&nbsp; )</snap>
               <span className='text-teal-500 text-[15px] font-semibold'>&nbsp; &#123;</span>
             </div>
-            <div className='leading-[22px] py-1 text-[15px] text-stone-500'>
+            <div className='leading-[22px] py-1 text-[15px] text-stone-600'>
               We mainly use<span className='text-teal-500 font-normal'> Tailwind, Next js and App write </span> 
               to create innovative website with great user experience to our clients.
             </div>
@@ -163,17 +164,30 @@ export default function Home() {
       <div className={`${lato.className} w-6/12 text-right md:pl-80 leading-none font-semibold text-5xl md:text-[76px]`}>
             Arun<br />Zeds<span className='text-teal-500'>;</span>
       </div>
-      <div className={`${lato.className} w-7/12 pt-5 pr-[184px] text-left font-[400] text-base tracking-wide leading-[24px] text-stone-600`}>
-              <span className='text-teal-500'>"</span>
-              I am arun zeds, full stack web developer dedicated to <span className='text-teal-500'> turning ideas into creative solutions. </span>
-              <div className='pt-3 pb-[18px]'></div>
-              <span className='text--teal-500'> Outside</span> of coding, I love <span className='text-teal-500'>photography</span> and exploring <span className='text-teal-500'>men's lifestyles.</span>
-              <span className='text-teal-500 font-semibold'>"</span> 
-              {/* <span className='text-teal-500 font-medium'> Let's connect!</span> */}
+      <div className={`${lato.className} w-7/12 pt-5 pr-[200px] text-left font-[400] text-base tracking--wide leading-[34px] text-stone-700`}>
+              <span className="text-4xl font-light">I'm a web developer based in pondicherry, India.</span>
       </div>
     </div>
 
-      <div className='text-teal-500 py-9 text-3xl text-center font-semibold'>Let's Talk About Your Dream</div>
+    {/* Dedicated to <span className='text-teal-500'> turning ideas into creative solutions. </span> */}
+              {/* <div className='text-lg text-center'>
+              <span className='text--teal-500'> Outside</span> of coding, I love <span className='text-teal-500'>photography</span> and exploring <span className='text-teal-500'>men's lifestyles.</span>
+              <span className='text-teal-500 font-semibold'>"</span>
+             <span className='text-teal-500 font-medium'> Let's connect!</span>
+             </div> */}
+
+      {/* <div className='flex'>
+        <div className={`${lato.className} md:px-16 pt-12 leading-none font-semibold text-5xl md:text-[76px]`}>
+              Arun<br />Zeds<span className='text-teal-500'>;</span>
+        </div>
+        <div>
+
+        </div>
+        <Image className='rounded-full object-cover' src="/arunsm.svg" width={180} height={180}></Image>
+
+      </div> */}
+
+      <div className='text-teal-500 py-9 text-[34px] text-center font-semibold'>Let's Talk About Your Dream</div>
       <div className='flex justify-center gap-12 text-stone-500'>
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 50 50">
           <path fill="#78716c" d="M 5.5 7 C 3.019531 7 1 9.019531 1 11.5 L 1 11.925781 L 25 29 L 49 11.925781 L 49 11.5 C 49 9.019531 46.980469 7 44.5 7 Z M 6.351563 9 L 43.644531 9 L 25 22 Z M 1 14.027344 L 1 38.5 C 1 40.980469 3.019531 43 5.5 43 L 44.5 43 C 46.980469 43 49 40.980469 49 38.5 L 49 14.027344 L 43 18.296875 L 43 41 L 7 41 L 7 18.296875 Z"></path>
