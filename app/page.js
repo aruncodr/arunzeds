@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Header from './Header';
 import { Montserrat,Lato } from 'next/font/google'
 import Image from 'next/image';
-import getWork from './getWork/page';
 const mont = Montserrat({ subsets: ['latin'],
    weight: ['100','300','400','500','600','700','900'],
 })

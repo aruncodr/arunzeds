@@ -13,11 +13,8 @@ function PageContent() {
       <div className='leading-[52px]'>
         <div className='text-[#666666] font-light text-center text-[48px]'>Arunkumar</div>
         <div className='text-[#666666] leading-[18px] text-center text-[16px]'>
-           <div className={lato.className}>
-           <a target="_blank" rel="noopener noreferrer" href='https://arunzeds.com/' >arunzeds.com</a> &nbsp;|&nbsp; 
-           <a target="_blank" rel="noopener noreferrer" href='https://github.com/aruncodr'>github/aruncodr</a><br />
-           <span className='text-[14px] leading-6'><a href='tel:+919092131783'>9786787507</a></span> &nbsp;|&nbsp; 
-           <a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'>arunzeds@gmail.com</a></div>
+           <div className={lato.className}><a href='https://arunzeds.com/'>arunzeds.com</a> &nbsp;|&nbsp; github/aruncodr<br />
+           <span className='text-[14px] leading-6'>97867 87507</span> &nbsp;|&nbsp; arunzeds@gmail.com</div>
         </div>
       </div>
 
@@ -33,30 +30,29 @@ function PageContent() {
               <span className='head-bold'>ABOUT</span> &nbsp;|&nbsp; 
               P<span className='head-xs'>ORTFOLIO</span>
             </h2>
-            <p className={lato.className}><a target="_blank" rel="noopener noreferrer" href='https://arunzeds.com/'>arunzeds.com</a></p>
+            <p className={lato.className}><a href='https://arunzeds.com/'>arunzeds.com</a></p>
+
             <h2>
                <span className='head-bold'>RESUME</span> &nbsp;|&nbsp; 
                CV<span className='head-xs'></span>
             </h2>
-            <p className={lato.className}><a target="_blank" rel="noopener noreferrer" href='https://arunzeds.com/cv'>arunzeds.com/cv</a></p>
+            <p className={lato.className}><a href='https://arunzeds.com/cv'>arunzeds.com/cv</a></p>
 
             <h2>
                <span className='head-bold'>PROFILE</span>
             </h2>
             <p>
-            <span className={lato.className}><a target="_blank" rel="noopener noreferrer" href='https://in.pinterest.com/aruncodr/'>Pintest/arunzeds</a></span><br />
-            <span className={lato.className}><a target="_blank" rel="noopener noreferrer" href='https://linkedin.com/in/arunzeds'>Linked.in/arunzeds</a></span><br />
-            <span className={lato.className}><a target="_blank" rel="noopener noreferrer" href='https://github.com/aruncodr'>github/aruncodr</a></span><br />
+            <span className={lato.className}><a href='https://arunzeds.com/cv'>Pintest/arunzeds</a></span><br />
+            <span className={lato.className}><a href='https://arunzeds.com/cv'>Linked.in/arunzeds</a></span><br />
+            <span className={lato.className}><a href='https://arunzeds.com/cv'>github/aruncodr</a></span><br />
             </p>
             <h2>
                <span className='head-bold'>CONTACT</span>
             </h2>
             <p>
-            <span className={lato.className}><a href='tel:+919092131783'>9786787507</a></span><br />
-            <span className={lato.className}><a target="_blank" rel="noopener noreferrer" href='https://maps.app.goo.gl/irQF5WG2HxAkpNno9'>Pondicherry</a></span><br />
-            <span className={lato.className}><a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'>arunzeds@gmail.com</a>
-                                             {/* <a href='mailto: arunzeds@outlook.com'> @outlook</a> */}
-            </span><br />
+            <span className={lato.className}><a href='https://arunzeds.com/cv'>9786787507</a></span><br />
+            <span className={lato.className}><a href='https://arunzeds.com/cv'>Pondicherry</a></span><br />
+            <span className={lato.className}><a href='https://arunzeds.com/cv'>arunzeds@gmail @outlook</a></span><br />
             </p>
       </div>
 
@@ -113,15 +109,20 @@ function PageContent() {
             L<span className='head-xs'>IBRARIES </span>
           </h2>
           <p className={lato.className}>Tailwind, JavaScript, React, Next.js</p>
-
           <h2>
-            <span className='head-bold'>TECH</span> &nbsp;|&nbsp; 
+            <span className='head-bold'>BACK </span>
+            <span className='head-bold'>END</span> &nbsp;|&nbsp; 
+            T<span className='head-xs'>ECHNOLOGIES </span>
+          </h2>
+          <p className={lato.className}>Node.js, Mongo db, Appwrite</p>
+          <h2>
+            <span className='head-bold'>ADD ON</span> &nbsp;|&nbsp; 
             D<span className='head-xs'>ESIGNING </span> &nbsp;|&nbsp; 
-            T<span className='head-xs'>OOLS</span>
+            T<span className='head-xs'>ECH</span>
 
           </h2>
-          <p className={lato.className}>Attentive to UI/UX details and high quality.<br />Flow on Figma and Adobe Illustator.
-          <br />Backend with app write. Fan of Github.<br />Hands on Search engine optimization.</p>
+          <p className={lato.className}>Attentive to UI/UX details and high quality.<br />Flow on Figma and Adobe Illustator. Fan of Github.
+          <br />Hands on Search engine optimization.</p>
       </div>
       {/* ----------------- EDUCATION -------------- */}
       <div>
@@ -144,8 +145,7 @@ function PageContent() {
             G<span className='head-xs'>OOGLE </span>
             A<span className='head-xs'>PI</span>
           </h2>
-          <h3 className={lato.className}>
-          <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>mothercabs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Appwrite</h3>
+          <h3 className={lato.className}>mothercabs.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Appwrite</h3>
           <ul role="list" className={lato.className}>
             <li>A Cab Booking System is essentially an online platform where users can request a taxi ride by selecting their desired vehicle type, 
                 input ting their pickup and drop-off locations.</li>
@@ -161,8 +161,7 @@ function PageContent() {
             S<span className='head-xs'>PECIFICATION </span>
             W<span className='head-xs'>EBSITE</span>
           </h2>
-          <h3 className={lato.className}>
-          <a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
+          <h3 className={lato.className}>azspecs.com&nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
           <ul role="list" className={lato.className}>
             <li>AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.</li>
             <li>The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
@@ -176,8 +175,7 @@ function PageContent() {
             T<span className='head-xs'>ORSIUM</span> &nbsp;|&nbsp; 
             S<span className='head-xs'>HOPPING</span>
           </h2>
-          <h3 className={lato.className}>
-          <a target="_blank" rel="noopener noreferrer" href='https://pondystore.com/'>pondystore.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Appwrite</h3>
+          <h3 className={lato.className}>pondystore.com &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Appwrite</h3>
           <ul role="list" className={lato.className}>
             <li>Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. </li>
             <li>My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.</li>
