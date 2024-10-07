@@ -19,10 +19,10 @@ function Header() {
           <div className='px-2 md:px-4'>About<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span></div>
           <div className='px-2 md:px-4'>Work<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span></div>
           <div className='px-2 md:px-4'>Blog<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span></div>
-          <Link href="./cv">
+          <a href="./cv" target="_blank" rel="noopener noreferrer">
           <button className='ml-3 h-10 w-36 mx-auto border border-teal-500 rounded-lg' type="button">
           <span className='text-teal-500'>getResume<snap className="font-semibold">&nbsp; (&nbsp; )</snap></span>
-          </button></Link>
+          </button></a>
         </div>
         
     </div>
