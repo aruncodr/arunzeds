@@ -112,7 +112,7 @@ function PageContent() {
             <span className='head-bold'>END</span> &nbsp;|&nbsp; 
             L<span className='head-xs'>IBRARIES </span>
           </h2>
-          <p className={lato.className}>Tailwind, JavaScript, React, Next.js</p>
+          <p className={lato.className}>Tailwind, JavaScript, Next.js</p>
 
           <h2>
             <span className='head-bold'>TECH</span> &nbsp;|&nbsp; 
@@ -140,9 +140,9 @@ function PageContent() {
           <h2>
             <span className='head-bold'>MOTHER CABS</span> &nbsp;|&nbsp; 
             C<span className='head-xs'>AB </span>
-            B<span className='head-xs'>OOKING</span> &nbsp;|&nbsp; 
-            G<span className='head-xs'>OOGLE </span>
-            A<span className='head-xs'>PI</span>
+            B<span className='head-xs'>OOKING</span>
+            {/* G<span className='head-xs'>OOGLE </span> &nbsp;|&nbsp; 
+            A<span className='head-xs'>PI</span> */}
           </h2>
           <h3 className={lato.className}>
           <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>mothercabs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Appwrite</h3>
@@ -162,7 +162,7 @@ function PageContent() {
             W<span className='head-xs'>EBSITE</span>
           </h2>
           <h3 className={lato.className}>
-          <a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
+          <a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db &nbsp;|&nbsp; Appwrite</h3>
           <ul role="list" className={lato.className}>
             <li>AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.</li>
             <li>The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
