@@ -103,10 +103,12 @@ export default function Home() {
       </div>
       <div className='md:flex'>
         <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
+        <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>
             <Image className="h-[250px] object-fit shadow-sm" src="/mothercabs.png" width={500} height={500}></Image>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
             MOTHER CAB BOOKING PAGE
             </div>
+        </a>
 
             <div className={`${lato.className} leading-[22px] pt-0.5 pb-1 text-[14px] text-stone-600 tracking-wide`}>
             To book a cab taxi ride by selecting vechicle type, pickup and drop off location using Google API.
