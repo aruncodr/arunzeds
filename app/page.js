@@ -103,7 +103,7 @@ export default function Home() {
       </div>
       <div className='md:flex'>
         <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
-            <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/mothercabs.png" width={500} height={500}></Image>
+            <Image className="h-[250px] object-fit shadow-sm" src="/mothercabs.png" width={500} height={500}></Image>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
             MOTHER CAB BOOKING PAGE
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
 
         <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
-              <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
+              <Image className="rounded-lg h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
               PONDICHERRY TORISIUM
@@ -148,7 +148,7 @@ export default function Home() {
     <div className='md:flex pt-12'>
       <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
-              <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
+              <Image className="rounded-lg h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
               AZ MOBILE SPECIFICATION
@@ -172,7 +172,7 @@ export default function Home() {
         </div>
         <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
-              <Image className="rounded-2xl h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
+              <Image className="rounded-xl h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
               PONDICHERRY TORISIUM
