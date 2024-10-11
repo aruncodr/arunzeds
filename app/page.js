@@ -19,7 +19,7 @@ export default function Home() {
     </div>
     
     <div className='flex h-[640px]'>
-        <Image className='absolute z-[-2] top-[70px] right-0' src="/arun.svg" width={900} height={1000}></Image>
+        <Image className='absolute z-[-2] top-0 md:top-[70px] right-0' src="/arun.svg" width={900} height={1000}></Image>
 
 
     <div className="absolute top-0 z-[-3] w-full rotate-180 bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(202,224,226,.5)_100%)]" />
@@ -108,7 +108,7 @@ export default function Home() {
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
             MOTHER CAB BOOKING PAGE
             </div>
-        </a>
+        </a> 
 
             <div className={`${lato.className} leading-[22px] pt-0.5 pb-1 text-[14px] text-stone-600 tracking-wide`}>
             To book a cab taxi ride by selecting vechicle type, pickup and drop off location using Google API.
