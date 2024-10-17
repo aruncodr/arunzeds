@@ -7,20 +7,20 @@ const lato = Lato({ subsets: ['latin'],
 
 function PageContent() {
   return (
-    <div className='bg-white mx-auto text-gray-800 pt-4 w--[820px] w-[794px] h-[1122px]'>
+    <div className='bg-white mx-auto text-gray-800 pt-6 w--[820px] w-[794px] h-[1122px]'>
 
       <div className='leading-[52px]'>
         <div className='text-[#666666] font-light text-center text-[48px]'>Arunkumar</div>
         <div className='text-[#666666] leading-[18px] text-center text-[16px]'>
-           <div className={lato.className}>
+           <div className={`${lato.className} leading-[22px]`}>
            <a target="_blank" rel="noopener noreferrer" href='https://arunzeds.com/' >arunzeds.com</a> &nbsp;|&nbsp; 
-           <a target="_blank" rel="noopener noreferrer" href='https://github.com/aruncodr'>github/aruncodr</a><br />
+           <a target="_blank" rel="noopener noreferrer" href='https://github.com/aruncodr'> github/aruncodr</a><br />
            <span className='text-[14px] leading-6'><a href='tel:+919092131783'>9786787507</a></span> &nbsp;|&nbsp; 
-           <a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'>arunzeds@gmail.com</a></div>
+           <a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'> arunzeds@gmail.com</a></div>
         </div>
       </div>
 
-      <div className="h-[1px] mt-2 bg-gray-400 border-1 border-gray-400 dark:bg-gray-400" ></div>
+      <div className="h-[1px] mt-3 bg-gray-400 border-1 border-gray-400 dark:bg-gray-400" ></div>
 
       <div className='grid grid-cols-3 pt-1 px-10 '>
 
@@ -51,10 +51,9 @@ function PageContent() {
                <span className='head-bold'>CONTACT</span>
             </h2>
             <p>
-            <span className={lato.className}><a href='tel:+919092131783'>9786787507</a></span><br />
-            <span className={lato.className}><a target="_blank" rel="noopener noreferrer" href='https://maps.app.goo.gl/irQF5WG2HxAkpNno9'>Pondicherry</a></span><br />
+            <span className={lato.className}><a href='tel:+919092131783'>97867 87507</a></span><br />
+            <span className={lato.className}><a target="_blank" rel="noopener noreferrer" href='https://maps.app.goo.gl/irQF5WG2HxAkpNno9'>Puducherry</a></span><br />
             <span className={lato.className}><a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'>arunzeds@gmail.com</a>
-                                             {/* <a href='mailto: arunzeds@outlook.com'> @outlook</a> */}
             </span><br />
             </p>
       </div>
@@ -109,7 +108,8 @@ function PageContent() {
           <h2>
             <span className='head-bold'>FRONT </span>
             <span className='head-bold'>END</span> &nbsp;|&nbsp; 
-            L<span className='head-xs'>IBRARIES </span>
+            L<span className='head-xs'>ANGUAGE</span> &nbsp;|&nbsp; 
+            L<span className='head-xs'>IBRARIES</span>
           </h2>
           <p className={lato.className}>Tailwind, JavaScript, React, Next.js</p>
 
@@ -120,7 +120,7 @@ function PageContent() {
 
           </h2>
           <p className={lato.className}>Attentive to UI/UX details and high quality.<br />Flow on Figma and Adobe Illustator.
-          <br />Backend with Mongo. Fan of Github.<br />Hands on Search engine optimization.</p>
+          <br />Backend with Mongo db. Fan of Github.<br /></p>
       </div>
       {/* ----------------- EDUCATION -------------- */}
       <div>
@@ -140,11 +140,9 @@ function PageContent() {
             <span className='head-bold'>MOTHER CABS</span> &nbsp;|&nbsp; 
             C<span className='head-xs'>AB </span>
             B<span className='head-xs'>OOKING</span>
-            {/* G<span className='head-xs'>OOGLE </span> &nbsp;|&nbsp; 
-            A<span className='head-xs'>PI</span> */}
           </h2>
           <h3 className={lato.className}>
-          <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>mothercabs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
+          Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
           <ul role="list" className={lato.className}>
             <li>A Cab Booking System is essentially an online platform where users can request a taxi ride by selecting their desired vehicle type, 
                 input ting their pickup and drop-off locations.</li>
@@ -161,7 +159,7 @@ function PageContent() {
             W<span className='head-xs'>EBSITE</span>
           </h2>
           <h3 className={lato.className}>
-          <a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Mongo db &nbsp;|&nbsp; Next js</h3>
+          Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Mongo db &nbsp;|&nbsp; Next js</h3>
           <ul role="list" className={lato.className}>
             <li>AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.</li>
             <li>The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
@@ -176,7 +174,7 @@ function PageContent() {
             S<span className='head-xs'>HOPPING</span>
           </h2>
           <h3 className={lato.className}>
-          <a target="_blank" rel="noopener noreferrer" href='https://pondystore.com/'>pondystore.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
+          Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
           <ul role="list" className={lato.className}>
             <li>Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. </li>
             <li>My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.</li>
@@ -186,6 +184,11 @@ function PageContent() {
     </div>
 
   </div>
+
+  {/* <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>mothercabs.com</a> &nbsp;|&nbsp; 
+<a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp; 
+<a target="_blank" rel="noopener noreferrer" href='https://pondystore.com/'>pondystore.com</a> &nbsp;|&nbsp;  
+ <a href='mailto: arunzeds@outlook.com'> @outlook</a> */}
 
 </div>
   )
