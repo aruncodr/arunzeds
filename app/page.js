@@ -18,8 +18,8 @@ export default function Home() {
       <Header/>
     </div>
     
-    <div className='flex h-[640px]'>
-        <Image className='absolute z-[-2] top-0 md:top-[70px] right-0' src="/arun.svg" width={900} height={1000}></Image>
+    <div className='flex h-screen lg:h-[640px]'>
+        <img className='absolute z-[-2] -bottom-4 -right-36 lg:right-44 w-[900px] lg:w-[760px]' src="/aruncrop.svg" ></img>
 
 
     <div className="absolute top-0 z-[-3] w-full rotate-180 bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(202,224,226,.5)_100%)]" />
@@ -30,24 +30,26 @@ export default function Home() {
       bg-[radial-gradient(100%_50%_at_50%_0%,rgba(153,246,228,0.1)_0,rgba(20,184,166,0)_50%,rgba(20,184,166,0)_100%)]"></div> */}
       {/* ------left lower------- */}
 
-      <div className='md:w-1/2 pt-20 pl-12 md:pl-52'>
+      <div className='md:w-1/2 pt-12 md:pt-20 pl-6 lg:pl-52'>
           <div className={`${lato.className} leading-none font-semibold text-5xl md:text-[76px]`}>
               Arun Zeds<span className='text-teal-500'>;</span>
           </div>
             {/* h1 - 7xl | h2 - xs | test - 14px */}
-          <div className='leading-none tracking-widest text-[0.83em] text-stone-500 pt-2.5 font-semibold'>
-              FULL STACK DEVELOPER&nbsp;<span className='text-teal-500'>|</span>&nbsp;PONDICHERRY, INDIA
+          <div className='flex flex-col gap-2.5 md:flex-row  leading-none tracking-widest text-[0.83em] text-stone-500 pt-2.5 font-semibold'>
+              <div className='col-span-2 '>FULL STACK DEVELOPER&nbsp;</div>
+              <div className=' text-teal-500 hidden md:flex'>|&nbsp;</div>
+              <div className=' '>PONDICHERRY, INDIA</div>
           </div>
-          <div className={`${lato.className} pt-1.5 pb-0.5 text-sm text-[1.20rem] font-[400] tracking-wider md:w-[360px]`}>           
-            <div className='text-teal-500 pt-0.5 text-[15px] font-medium'>
+          <div className={`${lato.className} pt-4 md:pt-1.5 pb-2.5 md:pb-0.5 text-sm text-[1.20rem] font-[400] tracking-wider md:w-[360px]`}>           
+            <div className='text-teal-500 pt-0.5 text-[14px] lg:text-[15px] font-medium'>
               Desc<snap className="font-semibold">&nbsp; (&nbsp; )</snap>
-              <span className='text-teal-500 text-[15px] font-semibold'>&nbsp; &#123;</span>
+              <span className='text-teal-500 text-[14px] lg:text-[15px] font-semibold'>&nbsp; &#123;</span>
             </div>
-            <div className='leading-[22px] py-1 text-[15px] text-stone-600'>
-              We mainly use<span className='text-teal-500 font-normal'> Tailwind, Next js and App write </span> 
+            <div className='leading-[22px] py-1 text-[15px] lg:text-[15px] text-stone-600'>
+              We mainly use<span className='text-teal-500 font-normal'> Tailwind, React, Next js and Mongo db </span> 
               to create innovative website with great user experience to our clients.
             </div>
-            <div className='text-teal-500 text-[15px] font-semibold'>&#125;</div>
+            <div className='text-teal-500 text-[14px] lg:text-[15px] font-semibold'>&#125;</div>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="./cv">
             <button className='mt-2 h-10 w-36 font-medium text-[15px] mx-auto bg-teal-500 text-white rounded-lg'>
@@ -97,12 +99,12 @@ export default function Home() {
     </div>
 
     {/* ----------------------WORK () page ---------------------- <span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span> */}
-    <div className="bg-stone-50 pt-12 mx-auto pb-20 px-40">
-      <div className={`${lato.className} pl-8 pb-12 text--center text-xl font-medium `}>
+    <div className="bg-stone-50 pt-12 mx-auto pb-20 lg:px-40">
+      <div className={`${lato.className} pl-4 lg:pl-8 pb-4 lg:pb-12 text--center text-xl font-medium `}>
         Work<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span>
       </div>
-      <div className='md:flex'>
-        <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
+      <div className='lg:flex'>
+        <div className="mx-auto p-5 w-[300px] lg:w-[500px] bg-white rounded-2xl shadow-sm">
         <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>
             <Image className="h-[250px] object-fit shadow-sm" src="/mothercabs.png" width={500} height={500}></Image>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
@@ -124,7 +126,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-auto mt-12 lg:mt-0 p-5 w-[300px] lg:w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
               <Image className="rounded-lg h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
@@ -147,8 +149,8 @@ export default function Home() {
 
       </div>
       {/* ---------------- 2 FLEX ----------------- */}
-    <div className='md:flex pt-12'>
-      <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
+    <div className='lg:flex pt-12'>
+      <div className="mx-auto p-5 w-[300px] lg:w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
               <Image className="rounded-lg h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
@@ -172,7 +174,7 @@ export default function Home() {
 
             </div>
         </div>
-        <div className="mx-auto p-5 w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-auto mt-12 lg:mt-0 p-5 w-[300px] lg:w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
               <Image className="rounded-xl h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
@@ -196,17 +198,17 @@ export default function Home() {
 
     </div>
     {/* --------------------- About () ------------------------- */}
-    <div className='mx-auto pt-12 pb-72 px-40'>
-      <div className={`${lato.className} pl-8 text--center text-xl font-medium `}>
+    <div className='mx-auto pt-12 pb-52 lg:pb-72  lg:px-40'>
+      <div className={`${lato.className} pl-4 pb-6 lg:pb-0 lg:pl-8 text--center text-xl font-medium `}>
         About<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span>
       </div>
  
-    <div className='flex gap-12 centent-center pt-16 mr-'>
-      <div className={`${lato.className} w-6/12 text-right md:pl-80 leading-none font-semibold text-5xl md:text-[76px]`}>
-            Arun<br />Zeds<span className='text-teal-500'>;</span>
+    <div className='flex flex-col lg:flex-row lg:gap-12 centent-center pt-16 mr-'>
+      <div className={`${lato.className} text-center lg:w-6/12 lg:text-right lg:pl-80 leading-none font-semibold text-4xl lg:text-5xl lg:text-[76px]`}>
+            Arun Zeds<span className='text-teal-500'>;</span>
       </div>
-      <div className={`${lato.className} w-7/12 pt-5 pr-[200px] text-left font-[400] text-base tracking--wide leading-[34px] text-stone-700`}>
-              <span className="text-4xl font-light">I'm a web developer based in pondicherry, India.</span>
+      <div className={`${lato.className} lg:w-7/12 pt-4 lg:pt-5 lg:pr-[200px] text-center lg:text-left font-[400] text-base tracking--wide leading-[34px] text-stone-700`}>
+              <span className="text-2xl lg:text-4xl font-light">I'm a web developer based in pondicherry, India.</span>
       </div>
     </div>
 
@@ -228,8 +230,8 @@ export default function Home() {
 
       </div> */}
 
-      <div className='text-teal-500 py-9 text-[34px] text-center font-semibold'>Let's Talk About Your Dream</div>
-      <div className='flex justify-center gap-12 text-stone-500'>
+      <div className='text-teal-500 py-4 lg:py-9 text-2xl lg:text-[34px] text-center font-semibold'>Let's Talk About Your Dream</div>
+      <div className='flex pt-4 justify-center gap-12 text-stone-500'>
         <a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'>
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 50 50">
           <path fill="#78716c" d="M 5.5 7 C 3.019531 7 1 9.019531 1 11.5 L 1 11.925781 L 25 29 L 49 11.925781 L 49 11.5 C 49 9.019531 46.980469 7 44.5 7 Z M 6.351563 9 L 43.644531 9 L 25 22 Z M 1 14.027344 L 1 38.5 C 1 40.980469 3.019531 43 5.5 43 L 44.5 43 C 46.980469 43 49 40.980469 49 38.5 L 49 14.027344 L 43 18.296875 L 43 41 L 7 41 L 7 18.296875 Z"></path>
