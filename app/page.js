@@ -132,7 +132,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div className="mx-4 lg:mx-auto mt-4 p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-4 lg:mx-auto mt-4 lg:mt-0 p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
             <Image className="h-[164px] object-contain shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
@@ -180,7 +180,7 @@ export default function Home() {
 
             </div>
         </div>
-        <div className="mx-4 lg:mx-auto mt-4 p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-4 lg:mx-auto mt-4 lg:mt-0 p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
             <Image className="h-[164px] object-contain shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
