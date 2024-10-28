@@ -53,7 +53,7 @@ function Header() {
           <li className=' hidden lg:flex pt-24 px-2 md:px-4 pb-6'>getResume<span className='text-teal-500 font-bold'>&nbsp; (&nbsp; )</span></li>
         </ul>
 
-        <div className={`absolute top-24 lg:right-0 w-full lg:w-[400px] bg-white
+        {/* <div className={`absolute top-24 lg:right-0 w-full lg:w-[400px] bg-white
           flex flex-col items-center gap-6 font-meidum lg:font-semibold text-[15px] lg:text-lg transform transition-transform 
           ${isMenuOpen ? "opacity-100" : "opacity-0"}`}
           style={{transition: "transform 0.3s ease, opacity 0.3s ease"}}>
@@ -61,7 +61,7 @@ function Header() {
             <li className='list-none pt-4 px-2 md:px-4'>Work<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span></li>
             <li className='list-none pt-4 px-2 md:px-4'>Blog<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span></li>
             <li className='list-none pt-4 px-2 md:px-4 pb-6'>getResume<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span></li>
-        </div>
+        </div> */}
       </div>
     </div>
 

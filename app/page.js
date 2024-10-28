@@ -19,7 +19,13 @@ export default function Home() {
     </div>
     
     <div className='flex h-screen lg:h-[640px]'>
-        <img className='absolute z-[-2] -bottom-4 -right-36 lg:right-44 w-[900px] lg:w-[760px]' src="/aruncrop.svg" ></img>
+
+    <div className=''>
+    <img className='absolute hidden lg:flex z-[-2] -bottom-4 -right-36 lg:right-44 w-[900px] lg:w-[760px]' src="/aruncrop.svg"></img>
+
+    </div>
+    <div className="bg-[url('/aruncorp.svg')]"></div>
+
 
 
     <div className="absolute top-0 z-[-3] w-full rotate-180 bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(202,224,226,.5)_100%)]" />
@@ -30,7 +36,7 @@ export default function Home() {
       bg-[radial-gradient(100%_50%_at_50%_0%,rgba(153,246,228,0.1)_0,rgba(20,184,166,0)_50%,rgba(20,184,166,0)_100%)]"></div> */}
       {/* ------left lower------- */}
 
-      <div className='md:w-1/2 pt-12 md:pt-20 pl-6 lg:pl-52'>
+      <div className='lg:w-1/2 pt-12 md:pt-20 pl-6 lg:pl-52'>
           <div className={`${lato.className} leading-none font-semibold text-5xl md:text-[76px]`}>
               Arun Zeds<span className='text-teal-500'>;</span>
           </div>
@@ -104,9 +110,9 @@ export default function Home() {
         Work<span className='text-teal-500 font-semibold'>&nbsp; (&nbsp; )</span>
       </div>
       <div className='lg:flex'>
-        <div className="mx-auto p-5 w-[300px] lg:w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-4 lg:mx-auto p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
         <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>
-            <Image className="h-[250px] object-fit shadow-sm" src="/mothercabs.png" width={500} height={500}></Image>
+            <Image className="h-[164px] object-contain shadow-sm" src="/mothercabs.png" width={500} height={500}></Image>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
             MOTHER CAB BOOKING PAGE
             </div>
@@ -126,9 +132,9 @@ export default function Home() {
             </div>
         </div>
 
-        <div className="mx-auto mt-12 lg:mt-0 p-5 w-[300px] lg:w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-4 lg:mx-auto mt-4 p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
-              <Image className="rounded-lg h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
+            <Image className="h-[164px] object-contain shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
               PONDICHERRY TORISIUM
@@ -149,11 +155,11 @@ export default function Home() {
 
       </div>
       {/* ---------------- 2 FLEX ----------------- */}
-    <div className='lg:flex pt-12'>
-      <div className="mx-auto p-5 w-[300px] lg:w-[500px] bg-white rounded-2xl shadow-sm">
-            <div className=''>
-              <Image className="rounded-lg h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
-            </div>
+    <div className='lg:flex pt-4 lg:pt-12'>
+    <div className="mx-4 lg:mx-auto p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
+    <div className=''>
+    <Image className="h-[164px] object-contain shadow-sm" src="/l.png" width={500} height={500}></Image>
+    </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
               AZ MOBILE SPECIFICATION
             </div>
@@ -174,9 +180,9 @@ export default function Home() {
 
             </div>
         </div>
-        <div className="mx-auto mt-12 lg:mt-0 p-5 w-[300px] lg:w-[500px] bg-white rounded-2xl shadow-sm">
+        <div className="mx-4 lg:mx-auto mt-4 p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
-              <Image className="rounded-xl h-[250px] object-cover object-top shadow-sm" src="/l.png" width={500} height={500}></Image>
+            <Image className="h-[164px] object-contain shadow-sm" src="/l.png" width={500} height={500}></Image>
             </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
               PONDICHERRY TORISIUM

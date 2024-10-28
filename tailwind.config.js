@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      // backgroundImage: {
+      //   'hero-pattern': "url('/aruncrop.svg')",
+      //   // 'footer-texture': "url('/img/footer-texture.png')",
+      // },
     },
   },
   plugins: [],
