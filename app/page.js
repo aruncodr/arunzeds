@@ -21,7 +21,7 @@ export default function Home() {
     <div className='flex h-screen lg:h-[640px]'>
 
     <div className=''>
-    <img className='absolute hidden lg:flex z-[-2] -bottom-4 -right-36 lg:right-44 w-[900px] lg:w-[760px]' src="/aruncrop.svg"></img>
+    <img className='absolute hidden z-[-2] -bottom-4 -right-36 lg:right-44 w-[900px] lg:w-[760px]' src="/aruncrop.svg"></img>
 
     </div>
     <div className="bg-[url('/aruncorp.svg')]"></div>
