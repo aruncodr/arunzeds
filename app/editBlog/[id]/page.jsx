@@ -2,7 +2,7 @@ import EditBlogForm from "@/components/EditBlogForm";
 
 const getBlogById = async (id) => {
   try {
-    const res = await fetch(`http://localhost:3000/api/blogs/${id}`, {
+    const res = await fetch(`http://www.arunzeds.com/api/blogs/${id}`, {
       cache: "no-store",
     });
 

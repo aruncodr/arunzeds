@@ -18,7 +18,7 @@ export default function AddBlog() {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/api/blogs", {
+      const res = await fetch("http://www.arunzeds.com/api/blogs", {
         method: "POST",
         headers: {
           "Content-type": "application/json",

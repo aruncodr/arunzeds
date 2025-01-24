@@ -13,7 +13,7 @@ export default function EditBlogForm({ id, title, description }) {
     e.preventDefault();
 
     try {
-      const res = await fetch(`http://localhost:3000/api/blogs/${id}`, {
+      const res = await fetch(`http://www.arunzeds.com/api/blogs/${id}`, {
         method: "PUT",
         headers: {
           "Content-type": "application/json",
