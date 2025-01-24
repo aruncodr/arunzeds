@@ -13,6 +13,7 @@ export default function Home() {
 
   return (
 <div className='text-stone-700 //color: rgb(20 184 166); 20,184,166 :  204,251,241'>
+
     <div>
       <Header/>
     </div>
