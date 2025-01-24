@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Header from './Header';
 import { Montserrat,Lato } from 'next/font/google'
 import Image from 'next/image';
+import TopicsList from '@/components/TopicsList';
 const mont = Montserrat({ subsets: ['latin'],
    weight: ['100','300','400','500','600','700','900'],
 })
@@ -13,7 +14,6 @@ export default function Home() {
 
   return (
 <div className='text-stone-700 //color: rgb(20 184 166); 20,184,166 :  204,251,241'>
-
     <div>
       <Header/>
     </div>
