@@ -1,4 +1,4 @@
-import TopicsList from '@/components/BlogsList'
+import BlogsList from '@/components/BlogsList'
 import Link from 'next/link'
 import React from 'react'
 
@@ -14,7 +14,7 @@ export default function page() {
             Add Blog
           </Link>
         </div>
-        <TopicsList/>
+        <BlogsList/>
 
         <div className='pt-4 flex justify-between items-center'>
           <Link className="bg-green-900 text-white p-2 px-6 rounded-lg" href={"/edit"}>
