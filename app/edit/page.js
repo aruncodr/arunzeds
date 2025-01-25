@@ -23,8 +23,8 @@ return (
     <div className='m-8 bg-gray-100 p-4'>
 
 <pre>&#123;</pre>
-<pre>id: {id},</pre>
-<pre>route: "{route}",</pre>
+<pre>id: {a},</pre>
+<pre>route: "{b}",</pre>
 <pre>name: "{name}",</pre>
 <pre>name2: "{name2}",</pre>
 <pre>ads: "{ads}",</pre>
