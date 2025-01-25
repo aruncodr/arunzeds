@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import { NuqsAdapter } from 'nuqs/adapters/next/app'
 import "./globals.css";
 import { Poppins,Raleway } from 'next/font/google'
 const inter = Raleway({ subsets: ['latin']})
@@ -13,7 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <body className={inter.className}>
+      <NuqsAdapter>
        {children}
+       </NuqsAdapter>
       </body>
     </html>
   )
