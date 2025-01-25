@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import { NuqsAdapter } from 'nuqs/adapters/next/app'
 import { Poppins,Raleway } from 'next/font/google'
+import { Suspense } from "react";
 const inter = Raleway({ subsets: ['latin']})
 
 export const metadata = {
@@ -13,9 +14,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <body className={inter.className}>
+        <Suspense>
+
       <NuqsAdapter>
        {children}
        </NuqsAdapter>
+        </Suspense>
       </body>
     </html>
   )
