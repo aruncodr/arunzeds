@@ -1,9 +1,11 @@
 "use client"
 import React, { useState } from "react";
 import Receive from "./Receive";
+import { useQueryState } from "nuqs";
 
 const PasteButton = () => {
-  const [id, setId] = useState("");
+  // const [id, setId] = useState("");
+  const [id, setId] = useQueryState('id', {defaultValue: '' });
 
   const handlePaste = async () => {
     const text = await navigator.clipboard.readText();
