@@ -142,7 +142,8 @@ function PageContent() {
             B<span className='head-xs'>OOKING</span>
           </h2>
           <h3 className={`{lato.className} pt-[7px] pb-1`}>
-          <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>mothercabs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
+          {/* <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>mothercabs.com</a> &nbsp;|&nbsp;  */}
+          Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
           <ul role="list" className={lato.className}>
             <li>A Cab Booking System is essentially an online platform where users can request a taxi ride by selecting their desired vehicle type, 
                 input ting their pickup and drop-off locations.</li>
@@ -159,7 +160,8 @@ function PageContent() {
             W<span className='head-xs'>EBSITE</span>
           </h2>
           <h3 className={`{lato.className} pt-[7px] pb-1`}>
-          <a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Mongo db &nbsp;|&nbsp; Next js</h3>
+          {/* <a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp;  */}
+          Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Mongo db &nbsp;|&nbsp; Next js</h3>
           <ul role="list" className={lato.className}>
             <li>AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.</li>
             <li>The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
@@ -174,7 +176,8 @@ function PageContent() {
             S<span className='head-xs'>HOPPING</span>
           </h2>
           <h3 className={`{lato.className} pt-[7px] pb-1`}>
-          <a target="_blank" rel="noopener noreferrer" href='https://pondystore.com/'>pondystore.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
+          {/* <a target="_blank" rel="noopener noreferrer" href='https://pondystore.com/'>pondystore.com</a> &nbsp;|&nbsp;  */}
+          Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
           <ul role="list" className={lato.className}>
             <li>Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. </li>
             <li>My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.</li>
