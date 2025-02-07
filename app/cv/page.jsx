@@ -172,7 +172,7 @@ function PageContent() {
             <span className='head-bold'>PONDY STORE</span> &nbsp;|&nbsp; 
             E<span className='head-xs'>XPLORE </span>
             P<span className='head-xs'>ONDICHERRY</span> &nbsp;|&nbsp; 
-            T<span className='head-xs'>ORSIUM</span> &nbsp;|&nbsp; 
+            T<span className='head-xs'>OURISM</span> &nbsp;|&nbsp; 
             S<span className='head-xs'>HOPPING</span>
           </h2>
           <h3 className={`{lato.className} pt-[7px] pb-1`}>
