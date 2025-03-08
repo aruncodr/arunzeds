@@ -1,13 +1,58 @@
 import Link from 'next/link'
-import Header from './Header';
 import { Montserrat,Lato } from 'next/font/google'
 import Image from 'next/image';
+import Header from '../Header';
 const mont = Montserrat({ subsets: ['latin'],
    weight: ['100','300','400','500','600','700','900'],
 })
 const lato = Lato({ subsets: ['latin'],
   weight: ['100','300','400','700','900'],
 })
+export const metadata = {
+  title: {
+    default: "Arun Zed | AZ Portfolio",
+    template: "%s - Arunzed"
+  },
+  description: "Hi, I'm Arun Zed - Full Stack Web Developer, specialized in Next js, Tailwind, Appwrite focused on creating efficient and user friendly web solution. Arun zeds - AZ : I'm involved in every step of the process: from discovery and design to development, testing, and deployment. AZ - Arun zeds : Let's connect ! AZ Portfolio | AZ Resume |",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL),
+  robots: 'follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large',
+  keywords: [
+    "Arun zed","Arun zeds","ARUN ZED","ARUN ZEDS","arunzed","arunzeds","aruncodr","arun codr","arunkumar","Arun kumar"
+  ],
+  authors: [{ name: "Arun Zed", url: "https://www.arunzeds.com/" }],
+  creator: "Arun Zed",
+  publisher: "Arun Zed",
+  openGraph: {
+    type: "article",
+    locale: "en_US",
+    url: "/",
+    publisherTime: "",
+    authors: 'arun zed',
+    title: `Arun Zed | AZ Portfolio`,
+    description: "Hi, I'm Arun Zed - Full Stack Web Developer, specialized in Next js, Tailwind, Appwrite focused on creating efficient and user friendly web solution. Arun zeds - AZ : I'm involved in every step of the process: from discovery and design to development, testing, and deployment. AZ - Arun zeds : Let's connect ! AZ Portfolio | AZ Resume |",
+    siteName: "arunzeds.com",
+    images: [{
+      url: "/icon.png",
+      width: 1200,
+      height: 720,
+      alt: "Arun Zeds | AZ Portfolio",
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@Arun_zed_',
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/icon.png",
+    apple: "/apple-icon.png",
+  },
+  manifest: "https://www.arunzeds.com/site.webmanifest",
+  alternates: {
+    canonical: `/`,
+    languages: { "en-US": "/en-US", },
+  },
+};
 export default function Home() {
 
   return (
