@@ -49,7 +49,7 @@ export const metadata = {
   },
   manifest: "https://www.arunzeds.com/site.webmanifest",
   alternates: {
-    canonical: `/`,
+    canonical: `https://www.arunzeds.com/arunzed`,
     languages: { "en-US": "/en-US", },
   },
 };
