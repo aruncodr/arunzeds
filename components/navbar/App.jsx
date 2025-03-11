@@ -12,7 +12,7 @@ export default function App() {
       <header className="h-16 text-[15px] fixed inset-0 flex items-center bg-[#18181A] ">
         <nav className=" px-3.5 flex items-center justify-between w-full max-w-7xl mx-auto">
           <Link href='/' className="flex items-center gap-x-3 z-40 relative">
-            <Image className="text-white" src='/more/logo_white_png.svg' alt="az specs" className="size-8" width={16} height={16} />
+            <Image className="text-white size-8" src='/more/logo_white_png.svg' alt="az specs" width={16} height={16} />
             <h3 className="text-lg text-gray-300 font-semibold">AZ specs</h3>
           </Link>
 
