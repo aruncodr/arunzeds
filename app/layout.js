@@ -1,20 +1,30 @@
-import localFont from "next/font/local";
+import { Urbanist } from "next/font/google";
 import "./globals.css";
-import { Poppins,Raleway } from 'next/font/google'
-const inter = Raleway({ subsets: ['latin']})
+import Navbar from "@/components/navbar/Navbar";
+
+const urban = Urbanist({
+  weight: ['200','300','400','500','600','700','800','900'],
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: {
-    default: "Arun Zeds | AZ Portfolio",
-    template: "%s - Arunzed"
+    default: "AZ Specs: Bikes, cars, EV's All About Automobiles -arun zeds",
+    // template: "%s - Mother Motors"
   },
-  description: "Hi, I'm Arun Zeds - Full Stack Web Developer, specialized in Next js, Tailwind, Appwrite focused on creating efficient and user friendly web solution. Arun zeds - AZ : I'm involved in every step of the process: from discovery and design to development, testing, and deployment. AZ - Arun zeds : Let's connect ! AZ Portfolio | AZ Resume |",
+  // other: {
+  //   "google-adsense-account": "ca-pub-8984092184352457",
+  // },
+  description: "AZ Specs - Bikes, cars, and upcoming automobiles - Specification, pricing, mileage, topspeed, modifications, features  and maintainence cost - arun zeds",
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL),
   robots: 'follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large',
   keywords: [
-    "Arun zeds","Arun zed","ARUN ZEDS","ARUN ZED","arunzeds","arunzed","aruncodr","arun codr","arunkumar","Arun kumar"
+    "AZ SPECS","az specs","Latest car models","Best motorcycles 2025","Upcoming bikes 2025","New car releases","Motorcycle reviews 2025",
+    "Automobile news","Bike modifications","Electric cars 2025","Best motorcycles for beginners","Top cars for families",
+    "Best car accessories","Luxury car models","Car maintenance tips","Motorcycle news","Motorcycle upgrades","Car customization ideas",
+    "Best electric motorcycles","Vehicle performance upgrades","Future car technology","Car buying guide","Best bikes for commuting","New bike launches"
   ],
-  authors: [{ name: "Arun Zed", url: "https://www.arunzeds.com/" }],
+  authors: [{ name: "Arun Zed", url: "https://www.azspecs.com/" }],
   creator: "Arun Zed",
   publisher: "Arun Zed",
   openGraph: {
@@ -23,14 +33,14 @@ export const metadata = {
     url: "/",
     publisherTime: "",
     authors: 'arun zed',
-    title: `Arun Zeds | AZ Portfolio`,
-    description: "Hi, I'm Arun Zeds - Full Stack Web Developer, specialized in Next js, Tailwind, Appwrite focused on creating efficient and user friendly web solution. Arun zeds - AZ : I'm involved in every step of the process: from discovery and design to development, testing, and deployment. AZ - Arun zeds : Let's connect ! AZ Portfolio | AZ Resume |",
-    siteName: "arunzeds.com",
+    title: `AZ Specs - Bikes, cars, EV's and All About Automobiles`,
+    description: "AZ Specs - Bikes, cars, and upcoming automobiles - Specification, pricing, mileage, topspeed, modifications, features  and maintainence cost",
+    siteName: "azspecs.com",
     images: [{
       url: "/icon.png",
       width: 1200,
       height: 720,
-      alt: "Arun Zeds | AZ Portfolio",
+      alt: "AZ Specs - Bikes, cars, EV's and All About Automobiles",
     }],
   },
   twitter: {
@@ -42,19 +52,22 @@ export const metadata = {
     shortcut: "/icon.png",
     apple: "/apple-icon.png",
   },
-  manifest: "https://www.arunzeds.com/site.webmanifest",
+  manifest: "https://www.azspecs.com/site.webmanifest",
   alternates: {
     canonical: `/`,
     languages: { "en-US": "/en-US", },
   },
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
-      <body className={inter.className}>
-       {children}
+      <body
+        className={`${urban.className} antialiased`} cz-shortcut-listen="false"
+      >
+        <Navbar/>
+        {children}
       </body>
     </html>
-  )
+  );
 }
