@@ -43,8 +43,8 @@ export default function Footer() {
 
     <hr/>
 <div className='text-[15px] py-3 text-center text-white'>
-        <Link href="/privacy">Privacy Policy</Link> &nbsp;|&nbsp; <Link href="/termsandconditions">Terms and Conditions</Link> &nbsp;|&nbsp; <Link href="/disclaimer">Disclaimer</Link> &nbsp;|&nbsp; <Link href="/about">About</Link> &nbsp;|&nbsp; <Link href="/contact">Contact us</Link>
-        <div className='py-1'>&copy; 2025 Pondy Store. All rights reserved.</div>
+        <Link href="/privacy-policy">Privacy Policy</Link> &nbsp;|&nbsp; <Link href="/terms-and-conditions">Terms and Conditions</Link> &nbsp;|&nbsp; <Link href="/disclaimer">Disclaimer</Link> &nbsp;|&nbsp; <Link href="/about">About</Link> &nbsp;|&nbsp; <Link href="/contact">Contact us</Link>
+        <div className='py-1'>&copy; 2025 Arun Zeds. All rights reserved.</div>
 </div>
 
 
