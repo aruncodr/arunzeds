@@ -111,8 +111,8 @@ Create a listing and fill into above js code in below  on terminal windows
     Create a listing and fill into above js code in (first line) (second line) create must 8 to 10 lines of FAQ - (fill very short and direct details don't explain to much) on terminal windows
     
     headingfourteen: "FAQ for Yamaha R6",
-    listthirfourtype : "list-no",
-    listthirfour: [
+    listfourtype : "list-no",
+    listfour: [
       {id: 1, head: "(questions)", para: "(answers)"},
       {id: 2, head: "(questions)", para: "(answers)"},
       {id: 3, head: "(questions)", para: "(answers)"},
