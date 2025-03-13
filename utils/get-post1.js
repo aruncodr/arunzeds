@@ -146,8 +146,8 @@ export async function getPost1() {
       parafourteen3: "it's an ideal bike for both new riders and seasoned pros. Whether you're racing on the track or cruising on open roads, the Yamaha R6 is engineered to deliver a high-performance experience.",
   
       headingfourteen: "FAQ for Yamaha R6",
-      listthirfourtype : "list-no",
-      listthirfour: [
+      listfourtype : "list-no",
+      listfour: [
         {id: 1, head: "What is the top speed of the Yamaha R6?", para: "The top speed of the Yamaha R6 is around 260 km/h."},
         {id: 2, head: "How fuel-efficient is the Yamaha R6?", para: "It offers a mileage of around 15-18 km/l, depending on the riding style."},
         {id: 3, head: "What is the price of the Yamaha R6?", para: "Prices vary between ₹1,50,000 to ₹2,00,000, depending on the variant."},
