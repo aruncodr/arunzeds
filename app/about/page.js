@@ -26,7 +26,7 @@ const About = () => {
         </ul>
         
         <h2 className="text-xl font-semibold mt-6">Our Commitment</h2>
-        <p className="mt-2">We strive to offer accurate, unbiased, and up-to-date information. Whether you're looking for a new car, motorcycle, or industry trends, we aim to be your go-to source for all things automobiles.</p>
+        <p className="mt-2">We strive to offer accurate, unbiased, and up-to-date information. Whether you&apos;re looking for a new car, motorcycle, or industry trends, we aim to be your go-to source for all things automobiles.</p>
         
         <h2 className="text-xl font-semibold mt-6">Monetization & Affiliate Disclosure</h2>
         <p className="mt-2">To support our platform, we use advertisements and affiliate marketing. Some of the links on our site may be affiliate links, meaning we may earn a small commission at no extra cost to you. We only recommend products and services that align with our values and audience interests.</p>

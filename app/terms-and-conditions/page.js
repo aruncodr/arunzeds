@@ -13,7 +13,7 @@ const TermsAndConditions = () => {
         <p className="text-sm text-center text-gray-600 mb-4">Last Updated: March 2025</p>
         
         <h2 className="text-xl font-semibold mt-6">1. Introduction</h2>
-        <p className="mt-2">Welcome to Arun Zed Automobiles ("Website", "we", "our"). By accessing our website (<a href="https://www.arunzeds.com/" className="text-blue-500">https://www.arunzeds.com/</a>), you agree to comply with these Terms and Conditions.</p>
+        <p className="mt-2">Welcome to Arun Zed Automobiles. By accessing our website (<a href="https://www.arunzeds.com/" className="text-blue-500">https://www.arunzeds.com/</a>), you agree to comply with these Terms and Conditions.</p>
         
         <h2 className="text-xl font-semibold mt-6">2. Intellectual Property</h2>
         <p className="mt-2">All content, including text, images, logos, and data, is the property of Arun Zed Automobiles unless otherwise stated. Unauthorized use of content is strictly prohibited.</p>

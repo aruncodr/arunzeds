@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
         <p className="text-sm text-center text-gray-600 mb-4">Last Updated: March 2025</p>
         
         <h2 className="text-xl font-semibold mt-6">1. Introduction</h2>
-        <p className="mt-2">Welcome to Arun Zed Automobiles ("Website", "we", "our"). This Privacy Policy explains how we collect, use, and protect your personal data when you visit <a href="https://www.arunzeds.com/" className="text-blue-500">https://www.arunzeds.com/</a>.</p>
+        <p className="mt-2">Welcome to Arun Zed Automobiles. This Privacy Policy explains how we collect, use, and protect your personal data when you visit <a href="https://www.arunzeds.com/" className="text-blue-500">https://www.arunzeds.com/</a>.</p>
         
         <h2 className="text-xl font-semibold mt-6">2. Information We Collect</h2>
         <p className="mt-2">We may collect personal data such as your name, email address, IP address, and browsing behavior through cookies and analytics tools.</p>

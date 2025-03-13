@@ -258,7 +258,7 @@ export default function Home() {
             Arun Zed<span className='text-teal-500'>;</span>
       </div>
       <div className={`${lato.className} lg:w-7/12 pt-4 lg:pt-5 lg:pr-[200px] text-center lg:text-left font-[400] text-base tracking--wide leading-[34px] text-stone-700`}>
-              <span className="text-2xl lg:text-4xl font-light">I'm a web developer based in pondicherry, India.</span>
+              <span className="text-2xl lg:text-4xl font-light">I&apos;m a web developer based in pondicherry, India.</span>
       </div>
     </div>
 
@@ -280,7 +280,7 @@ export default function Home() {
 
       </div> */}
 
-      <div className='text-teal-500 py-4 lg:py-9 text-2xl lg:text-[34px] text-center font-semibold'>Let's Talk About Your Dream</div>
+      <div className='text-teal-500 py-4 lg:py-9 text-2xl lg:text-[34px] text-center font-semibold'>Let&apos;s Talk About Your Dream</div>
       <div className='flex pt-4 justify-center gap-12 text-stone-500'>
         <a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'>
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 50 50">

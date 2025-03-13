@@ -13,7 +13,7 @@ const Disclaimer = () => {
         <p className="text-sm text-center text-gray-600 mb-4">Last Updated: March 2025</p>
         
         <h2 className="text-xl font-semibold mt-6">1. General Information</h2>
-        <p className="mt-2">The information provided by Arun Zed Automobiles ("we", "our", "us") on <a href="https://www.arunzeds.com/" className="text-blue-500">https://www.arunzeds.com/</a> is for general informational purposes only. All content is provided in good faith, but we make no representation or warranty of any kind, express or implied, regarding the accuracy, reliability, or completeness of any information on the site.</p>
+        <p className="mt-2">The information provided by Arun Zed Automobiles we on <a href="https://www.arunzeds.com/" className="text-blue-500">https://www.arunzeds.com/</a> is for general informational purposes only. All content is provided in good faith, but we make no representation or warranty of any kind, express or implied, regarding the accuracy, reliability, or completeness of any information on the site.</p>
         
         <h2 className="text-xl font-semibold mt-6">2. Professional Disclaimer</h2>
         <p className="mt-2">The website may contain automobile reviews, technical specifications, and maintenance tips. However, this should not be considered professional advice. Always consult a qualified professional before making any automotive decisions.</p>
