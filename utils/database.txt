@@ -85,9 +85,9 @@
     paratwelve2: "",
     paratwelve3: "",
     headingthirteen: "",
-    parafourteen1: "",
-    parafourteen2: "",
-    parafourteen3: "",
+    parathirteen1: "",
+    parathirteen2: "",
+    parathirteen3: "",
 
 //---FAQs
 
