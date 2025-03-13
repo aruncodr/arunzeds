@@ -7,10 +7,10 @@ export default function List({list, type, nolisthead}) {
         {list.map((e, index)=>{
           
           return(
-            <ul key={index} className={`${type} pl-4 lg:pl-8 pr-1 `}>
+            <ul key={index} className={`${type} pl-4 lg:pl-8 pr-1 text-base`}>
                 <li>
-                  <div><h3 className={type=="list-no"?`-ml-4 pt-2 ${nolisthead} `:`pt-2 ${nolisthead}`}><strong>{type=="list-no"?<span>{e.id}. </span>:null}{e.head}</strong></h3></div>
-                  <div><p>{e.para}</p></div>
+                  <div><h3 className={type=="list-no"?`-ml-4 text-base ${nolisthead} `:`text-base ${nolisthead}`}><strong>{type=="list-no"?<span>{e.id}. </span>:null}{e.head}</strong></h3></div>
+                  <div ><p className='text-base'>{e.para}</p></div>
                 </li>
             </ul>
             )
