@@ -21,7 +21,7 @@ export default async function RecentPost( {red404}) {
   return (
     <div>
         <h2 className={`${red404} text-xl font-bold pl-4 lg:pl-0 pt-4 leading-5`} aria-label='recent posts'>Recent Posts</h2>
-        <ul className='list-none'>
+        <ul>
             {selectedpost.slice(0,5).map((e,index)=>{
                 return(
                     <RecentList key={index} e={e}/>
@@ -30,7 +30,7 @@ export default async function RecentPost( {red404}) {
         </ul>
 
         <h2 className={`${red404} text-xl font-bold pl-4 lg:pl-0 pt-8 leading-5`} aria-label='recent posts'>Upcoming Bikes</h2>
-        <ul className='list-none'>
+        <ul>
             {bikespost.slice(0,5).map((e, index)=>{
                 return(
                     <RecentList key={index} e={e}/>
@@ -39,7 +39,7 @@ export default async function RecentPost( {red404}) {
         </ul>
 
         <h2 className={`${red404} text-xl font-bold pl-4 lg:pl-0 pt-8 leading-5`} aria-label='recent posts'>Upcoming cars</h2>
-        <ul className='list-none'>
+        <ul>
             {carspost.slice(0,5).map((e, index)=>{
                 return(
                     <RecentList key={index}  e={e}/>

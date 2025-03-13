@@ -1,17 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* :root {
+:root {
   --background: #ffffff;
   --foreground: #171717;
-} */
+}
 
-/* @theme inline {
+@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
 } */
 .oneline{
   display: -webkit-box;
@@ -36,35 +41,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-/* CV PAGES CUSTOM CLASS */
-
-@layer components {
-  h1 {
-    @apply leading-none text-[#525659] text-2xl pt-3 font-light;
-  }
-  h2 {
-    @apply leading-none pt-2 font-semibold text-sm;
-  }
-  .head-bold {
-    @apply leading-none font-bold;
-  }
-  .head-xs {
-    @apply leading-none text-xs;
-  }
-  h3 {
-    @apply leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium;
-  }
-  p {
-    @apply leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light;
-  }
-  ul {
-    @apply leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5;
-  }
 }

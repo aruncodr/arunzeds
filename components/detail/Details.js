@@ -205,7 +205,7 @@ export default async function Details({slug}) {
   ]
 
   return (
-    <div className='max-w-[1440px] lg:flex xl:px-24 mt-12 mx-auto text-base bg-[#F7F8F9]'>
+    <div className='max-w-[1440px] lg:flex xl:px-24 mx-auto bg-[#F7F8F9]'>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(microdata) }}/>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}/>
 
@@ -228,83 +228,88 @@ export default async function Details({slug}) {
               
               <div className='text-gary-700 pl-4 pr-2 pt-1.5'>{z?.desc} <span className='font-semibold'> {z?.desc2} </span> {z?.desc3}</div>
               
-              <h2 className="pt-4 pl-4 pr-2 text-2xl font-bold text-gray-800 darks:text-white">Pricing, Top Speed, Mileage, service cost of {z?.name} </h2>
-              <ul className='pl-6 pr-3 pt-2 text-base'>
-                  <li className='flex gap-4'><div className='w-24 text-nowrap'>Price</div><div className='font-semibold'>: &ensp;{z?.price} (Ex) </div></li>
-                  <li className='flex gap-4'><div className='w-24 text-nowrap'>Top Speed</div><div className='font-semibold'>: &ensp;{z?.topspeed} kmph</div></li>
-                  <li className='flex gap-4'><div className='w-24 text-nowrap'> Mileage</div><div className='font-semibold'>: &ensp;{z?.mileage}</div></li>
-                  <li className='flex gap-4'><div className='w-24 text-nowrap'>Serive cost</div><div className='font-semibold'>: &ensp;{z?.servicecost}</div></li>
+              <ul className='grid grid-cols-2 space-x-2 space-y-2 pl-6 pr-5 pt-2'>
+                  <li className='bg-gray-100 py-2.5 text-center rounded-lg col-span-2'><div className='font-bold text-[22px]'>{z?.name}</div></li>
+                  <li className='bg-gray-100 py-2.5 text-center rounded-lg'><div className='font-semibold text-xl'>{z?.price}</div><div className='font-medium text-[15px]'>Ex-Showroom Price</div></li>
+                  <li className='bg-gray-100 py-2.5 text-center rounded-lg'><div className='font-semibold text-xl'>{z?.topspeed} <span className='text-base'>kmph</span></div><div className='font-medium text-[15px]'>Top Speed</div></li>
+                  <li className='bg-gray-100 py-2.5 text-center rounded-lg'><div className='font-semibold text-xl'>{z?.mileage} <span className='text-base'>{z?.permileage}</span></div><div className='font-medium text-[15px]'> Mileage</div></li>
+                  <li className='bg-gray-100 py-2.5 text-center rounded-lg mr-2 mb-2'><div className='font-semibold text-xl'>{z?.servicecost}</div><div className='font-medium text-[15px]'>Serive cost</div></li>
               </ul>
+              <h2 className="pt-4 pl-4 pr-2 text-lg font-medium text-gray-800 darks:text-white">Detail about Pricing, Top Speed, Mileage, service cost is below in this blog</h2>
+
+
+              {/* <h2 className="pt-4 pl-4 pr-4 text-3xl font-bold text-gray-800 leading-[40px] darks:text-white">{z?.specs}</h2> */}
 
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingone}</h2>
               {z?.tableone ? <Table tabledata={z?.tableone} tableonehead={z?.tableonehead} column={z?.tableone[0].col2?"col2":null}/> :null}
               {z?.listone ? <List nolisthead={z?.nolistheadone} list={z?.listone} type={z?.listonetype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.paraone1} <span className='font-semibold'>{z?.paraone2}</span> {z?.paraone3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.paraone1} <span className='font-semibold'>{z?.paraone2}</span> {z?.paraone3}</p>
 
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingtwo}</h2>
               {z?.tabletwo ? <Table tabledata={z?.tabletwo} tableonehead={z?.tabletwohead} column={z?.tabletwo[0].col2?"col2":null}/> :null}
               {z?.listtwo ? <List nolisthead={z?.nolistheadtwo} list={z?.listtwo} type={z?.listtwotype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.paratwo1} <span className='font-semibold'>{z?.paratwo2}</span> {z?.paratwo3}</p>
-    
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.paratwo1} <span className='font-semibold'>{z?.paratwo2}</span> {z?.paratwo3}</p>
+
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingthree}</h2>
               {z?.tablethree ? <Table tabledata={z?.tablethree} tableonehead={z?.tablethreehead} column={z?.tablethree[0].col2?"col2":null}/> :null}
               {z?.listthree ? <List nolisthead={z?.nolistheadthree} list={z?.listthree} type={z?.listthreetype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.parathree1} <span className='font-semibold'>{z?.parathree2}</span> {z?.parathree3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.parathree1} <span className='font-semibold'>{z?.parathree2}</span> {z?.parathree3}</p>
+
 
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingfour}</h2>
               {z?.tablefour ? <Table tabledata={z?.tablefour} tableonehead={z?.tablefourhead} column={z?.tablefour[0].col2?"col2":null}/> :null}
               {z?.listfour ? <List nolisthead={z?.nolistheadfour} list={z?.listfour} type={z?.listfourtype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.parafour1} <span className='font-semibold'>{z?.parafour2}</span> {z?.parafour3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.parafour1} <span className='font-semibold'>{z?.parafour2}</span> {z?.parafour3}</p>
 
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingfive}</h2>
               {z?.tablefive ? <Table tabledata={z?.tablefive} tableonehead={z?.tablefivehead} column={z?.tablefive[0].col2?"col2":null}/> :null}
               {z?.listfive ? <List nolisthead={z?.nolistheadfive} list={z?.listfive} type={z?.listfivetype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.parafive1} <span className='font-semibold'>{z?.parafive2}</span> {z?.parafive3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.parafive1} <span className='font-semibold'>{z?.parafive2}</span> {z?.parafive3}</p>
 
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingsix}</h2>
               {z?.tablesix ? <Table tabledata={z?.tablesix} tableonehead={z?.tablesixhead} column={z?.tablesix[0].col2?"col2":null}/> :null}
               {z?.listsix ? <List nolisthead={z?.nolistheadsix} list={z?.listsix} type={z?.listsixtype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.parasix1} <span className='font-semibold'>{z?.parasix2}</span> {z?.parasix3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.parasix1} <span className='font-semibold'>{z?.parasix2}</span> {z?.parasix3}</p>
     
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingseven}</h2>
               {z?.tableseven ? <Table tabledata={z?.tableseven} tableonehead={z?.tablesevenhead} column={z?.tableseven[0].col2?"col2":null}/> :null}
               {z?.listseven ? <List nolisthead={z?.nolistheadseven} list={z?.listseven} type={z?.listseventype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.paraseven1} <span className='font-semibold'>{z?.paraseven2}</span> {z?.paraseven3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.paraseven1} <span className='font-semibold'>{z?.paraseven2}</span> {z?.paraseven3}</p>
 
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingeight}</h2>
               {z?.tableeight ? <Table tabledata={z?.tableeight} tableonehead={z?.tableeighthead} column={z?.tableeight[0].col2?"col2":null}/> :null}
               {z?.listeight ? <List nolisthead={z?.nolistheadeight} list={z?.listeight} type={z?.listeighttype} type2={z?.listeighttype2}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.paraeight1} <span className='font-semibold'>{z?.paraeight2}</span> {z?.paraeight3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.paraeight1} <span className='font-semibold'>{z?.paraeight2}</span> {z?.paraeight3}</p>
     
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingnine}</h2>
               {z?.tablenine ? <Table tabledata={z?.tablenine} tableonehead={z?.tableninehead} column={z?.tablenine[0].col2?"col2":null}/> :null}
               {z?.listnine ? <List nolisthead={z?.nolistheadnine} list={z?.listnine} type={z?.listninetype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.paranine1} <span className='font-semibold'>{z?.paranine2}</span> {z?.paranine3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.paranine1} <span className='font-semibold'>{z?.paranine2}</span> {z?.paranine3}</p>
              
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingten}</h2>
               {z?.tableten ? <Table tabledata={z?.tableten} tableonehead={z?.tabletenhead} column={z?.tableten[0].col2?"col2":null}/> :null}
               {z?.listten ? <List nolisthead={z?.nolistheadten} list={z?.listten} type={z?.listtentype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.paraten1} <span className='font-semibold'>{z?.paraten2}</span> {z?.paraten3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.paraten1} <span className='font-semibold'>{z?.paraten2}</span> {z?.paraten3}</p>
         
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingeleven}</h2>
               {z?.tableeleven ? <Table tabledata={z?.tableeleven} tableonehead={z?.tableelevenhead} column={z?.tableeleven[0].col2?"col2":null}/> :null}
               {z?.listeleven ? <List nolisthead={z?.nolistheadeleven} list={z?.listeleven} type={z?.listeleventype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.paraeleven1} <span className='font-semibold'>{z?.paraeleven2}</span> {z?.paraeleven3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.paraeleven1} <span className='font-semibold'>{z?.paraeleven2}</span> {z?.paraeleven3}</p>
 
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingtwelve}</h2>
               {z?.tabletwelve ? <Table tabledata={z?.tabletwelve} tableonehead={z?.tabletwelvehead} column={z?.tabletwelve[0].col2?"col2":null}/> :null}
               {z?.listtwelve ? <List nolisthead={z?.nolistheadtwelve} list={z?.listtwelve} type={z?.listtwelvetype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.paratwelve1} <span className='font-semibold'>{z?.paratwelve2}</span> {z?.paratwelve3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.paratwelve1} <span className='font-semibold'>{z?.paratwelve2}</span> {z?.paratwelve3}</p>
     
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingthirteen}</h2>
               {z?.thirteen ? <Table tabledata={z?.thirteen} tableonehead={z?.thirteenhead} column={z?.thirteen[0].col2?"col2":null}/> :null}
               {z?.listthirteen ? <List nolisthead={z?.nolistheadthirteen} list={z?.listthirteen} type={z?.listthirteentype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.parathirteen1} <span className='font-semibold'>{z?.parathirteen2}</span> {z?.parathirteen3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.parathirteen1} <span className='font-semibold'>{z?.parathirteen2}</span> {z?.parathirteen3}</p>
     
               <h2 className="pt-4 pl-4 pr-4 text-2xl font-bold text-gray-800 darks:text-white">{z?.headingfourteen}</h2>
               {z?.fourteen ? <Table tabledata={z?.fourteen} tableonehead={z?.fourteenhead} column={z?.fourteen[0].col2?"col2":null}/> :null}
               {z?.listfourteen ? <List nolisthead={z?.nolistheadfourteen} list={z?.listfourteen} type={z?.listfourteentype}/>:null}
-              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4 text-[17px]'>{z?.parafourteen1} <span className='font-semibold'>{z?.parafourteen2}</span> {z?.parafourteen3}</p>
+              <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.parafourteen1} <span className='font-semibold'>{z?.parafourteen2}</span> {z?.parafourteen3}</p>
 
             </div>
 

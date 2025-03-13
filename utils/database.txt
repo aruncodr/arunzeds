@@ -1,0 +1,96 @@
+{ 
+    id: ,
+    route: "",
+    name: "",
+    ads: "",
+    type: "",
+    ev: "no",
+    price: "₹ - ₹",
+    topspeed: "",
+    mileage: "",
+    permileage: "",
+    servicecost: "₹ - ₹",
+    specs: "Full Specification of ",
+    metatitle: "", 
+    metadesc: "", 
+    keywords: [],
+    publishedAt: "2025-04-01T12:00:00+05:30",
+    modifiedAt:  "2025-04-01T12:00:00+05:30",
+    h1: "",
+    img: "",
+    subh1: "",
+    desc: "",
+    headingone: "Engine & Performance",
+    tableonehead: ["Feature","Specification"],
+    tableone: [
+        { id: 1,feature: "Engine Type", col1: ""},
+        { id: 2,feature: "Displacement", col1: ""},
+        { id: 3,feature: "Max Power", col1: ""},
+        { id: 4,feature: "Max Toque", col1: ""},
+        { id: 5,feature: "Bore & Stroke", col1: ""},
+        { id: 6,feature: "Transmission", col1: ""},
+      ],
+    headingtwo: "Braking & Suspension",
+    tabletwohead: ["Feature","Specification"],
+    tabletwo: [
+        { id: 1,feature: "Front Brake", col1: ""},
+        { id: 2,feature: "Rear Brake", col1: ""},
+        { id: 3,feature: "Front Suspension", col1: ""},
+        { id: 4,feature: "Rear Suspension", col1: ""},
+        { id: 5,feature: "Tyre Size", col1: ""},
+      ],
+    headingthree: "Dimensions & Chassis",
+    tablethreehead: ["Feature","Specification"],
+    tablethree: [
+        { id: 1,feature: "Frame", col1: ""},
+        { id: 2,feature: "Ground clearance", col1: ""},
+        { id: 3,feature: "Seat Height", col1: ""},
+        { id: 4,feature: "Kerb Weight", col1: ""},
+        { id: 5,feature: "Fuel Tank", col1: ""},
+      ],
+//---Top Speed & Acceleration
+
+//---Mileage & Fuel Efficiency
+
+    headingsix: " Pricing & all Variants",
+    tablesixhead: ["Variants Name","Expected Price (Ex-Showroom)"],
+    tablesix: [
+        { id: 1,feature: "", col1: "₹"},
+        { id: 2,feature: "", col1: "₹"},
+        { id: 3,feature: "", col1: "₹"},
+              ],
+    listsixtype: "list-disc",
+    listsix: [
+      {id: 1, head: "", para: "On-Road Price around  lakhs"},
+    ],
+    parasix2: "Note: ",
+    parasix3: "Prices may vary based on location and dealer",
+
+//---Service & Maintenance Cost
+
+//---Pros & Cons
+
+//---Features and Electronics
+
+//---User Experience & Review
+
+    paraelten1: "",
+    paraelten2: "",
+    paraelten3: "",
+    headingeleven: "",
+    paraeleven1: "",
+    paraeleven2: "",
+    paraeleven3: "",
+    paratwelve1: "",
+    paratwelve2: "",
+    paratwelve3: "",
+    headingthirteen: "",
+    parafourteen1: "",
+    parafourteen2: "",
+    parafourteen3: "",
+
+//---FAQs
+
+    keysearch : [],
+    full: "",
+},

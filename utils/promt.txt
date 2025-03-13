@@ -1,0 +1,128 @@
+Yamaha R6 - creating a blog post by Follow my 14 steps instruction only.
+create a SEO optimized, Human written content, must human wirten content, No buzzy, noone can't find this content is created by ai complete look like human written content.
+
+1. Make 5 seo friendly meta title & meta Descriptions for Yamaha R6. on chat board
+
+2.Create seo friendly keyword Yamaha R6 in js array format, put in one line.. on terminal
+Create a listing and fill into above js code in below  on terminal windows
+        keywords : [(must fill the keywords one more time dont skip)], 
+
+3. Create a introduction two para and two title of Yamaha R6 (must human writen content, no buzzy words, seo friendly, high quality content) for google adsendce approval, so must be like human writen content. on chat board
+
+4. Create a listing in (first line) mileage, (second line) topspeed, (third line) service cost, (fourth line) pricing
+
+5. Top Speed & Acceleration of Yamaha R6 :
+    Create a listing and fill into above js code in (first line) (second line) (third line) create 2 to 4 line - (fill very short and direct details don't explain to much) on terminal windows
+    
+    headingfour: " Top Speed & Acceleration of Yamaha R6",
+    listfourtype : "list-disc",
+    listfour: [
+      {id: 1, head: "", para: "(first line)"}, 
+      {id: 2, head: "", para: "(second line) "},
+      {id: 3, head: "", para: "(third line) "},
+    ], - must don't remove end comma
+
+6.1 Mileage & Fuel Efficiency of Yamaha R6 :
+    Create a listing and fill into above js code in (first line) (second line) (third line) create 2 to 4 line - (fill very short and direct details don't explain to much) on terminal windows
+
+    headingfive: "Mileage & Fuel Efficiency of Yamaha R6",
+    listfivetype : "list-disc",
+    listfive: [
+      {id: 1, head: "", para: "(first line)"}, 
+      {id: 2, head: "", para: "(second line) "},
+      {id: 3, head: "", para: "(third line) "},
+    ], - must don't remove end comma
+
+6.2 Create a para & title for Mileage Trips for Yamaha R6. (must human writen content, no buzzy words, seo friendly, high quality content) on chat board
+
+7. Create a Table & put Pricing of each variant in each rows of the Yamaha R6.  on chat board
+
+8. Maintenance & Service Cost of Yamaha R6 - Service time period & service price amount:
+    Create a listing and fill into above js code in (first line) (second line) (third line)  (fourth line) (fifth line) create multiple lines - (fill very short and direct details don't explain to much) on terminal windows
+    
+    headingseven: "Maintenance & Service Cost of Yamaha R6",
+    listseventype : "list-disc",
+    listseven: [
+      {id: 1, head: "(title: First Service)", para: "(first line)"}, 
+      {id: 2, head: "(title: Second Service)", para: "(second line) "},
+      {id: 3, head: "(title: Annual Service)", para: "(third line) "},
+      {id: 4, head: "", para: "(fourth line) "},
+      {id: 5, head: "", para: "(fifth line) "},
+    ], - must don't remove end comma
+
+9. Pros and Cons Yamaha R6 
+    Create pros a listing and fill into above js code in (first line) (second line) create 5 to 7 line on terminal windows
+    Create cons a listing and fill into above js code in (first line) (second line) create 3 to 5 line on terminal windows
+
+    headingeight: "Pros and Cons of Yamaha R6",
+    listeighttype : "",
+    listeight: [
+      {id: 1, head: "PROS", para: "(first line)"}, 
+      {id: 2, head: "", para: "(second line) "},
+      {id: 3, head: "", para: "(third line) "},
+      {id: 4, head: "", para: "(fourth line) "},
+      {id: 5, head: "", para: "(fifth line) "},
+      {id: 5, head: "", para: "(sixth line) "},
+      {id: 6, head: "CONS", para: "(first line)"}, 
+      {id: 7, head: "", para: "(second line) "},
+      {id: 8, head: "", para: "(third line) "},
+    ], - must don't remove end comma
+
+
+10. Yamaha R6 Features and Technology :
+    Create a listing and fill into above js code in (first line) (second line) (third line) (fourth line) (fifth line) (sixth line) (seventh line) (eight line) (nine line) (ten line) create 8 to 10 line on terminal windows
+
+    headingnine: "Yamaha R6 Features and Technology",
+    listninetype : "list-disc",
+    listnine: [
+      {id: 1, head: "", para: "(first line)"}, 
+      {id: 2, head: "", para: "(second line) "},
+      {id: 3, head: "", para: "(third line) "},
+      {id: 4, head: "", para: "(fourth line) "},
+      {id: 5, head: "", para: "(fifth line) "},
+      {id: 6, head: "", para: "(sixth line) "},
+      {id: 7, head: "", para: "(seven line) "},
+      {id: 8, head: "", para: "(eight line) "},
+      {id: 9, head: "", para: "(nine line) "},
+      {id: 10, head: "", para: "(ten line) "},
+    ], - must don't remove end comma
+
+11.1  Yamaha R6 User Experience & Review :
+    Create a listing and fill into above js code in (first line) (second line) (third line) (fourth line) (fifth line) (sixth line) create 6 to 10 line on terminal windows
+    
+    headingten: "Yamaha R6 User Experience & Review",
+    listtentype : "list-disc",
+    listten: [
+      {id: 1, head: "", para: "(first line)"}, 
+      {id: 2, head: "", para: "(second line) "},
+      {id: 3, head: "", para: "(third line) "},
+      {id: 4, head: "", para: "(fourth line) "},
+      {id: 5, head: "", para: "(fifth line) "},
+      {id: 6, head: "", para: "(sixth line) "},
+    ], - must don't remove end comma
+
+11.2  Create a two para & title for User Experience & Review Yamaha R6. (must human writen content, no buzzy words, seo friendly, high quality content) on chat board
+
+12. Create a two para & title for why should you choose Yamaha R6. (must human writen content, no buzzy words, seo friendly, high quality content) on chat board
+
+13. Create two para of Final Verdict on Yamaha R6. (must human writen content, no buzzy words, seo friendly, high quality content) on chat board
+
+14. FAQ for Yamaha R6 :
+    Create a listing and fill into above js code in (first line) (second line) create must 8 to 10 lines of FAQ - (fill very short and direct details don't explain to much) on terminal windows
+    
+    headingfourteen: "FAQ for Yamaha R6",
+    listthirfourtype : "list-no",
+    listthirfour: [
+      {id: 1, head: "(questions)", para: "(answers)"},
+      {id: 2, head: "(questions)", para: "(answers)"},
+      {id: 3, head: "(questions)", para: "(answers)"},
+      {id: 4, head: "(questions)", para: "(answers)"},
+      {id: 5, head: "(questions)", para: "(answers)"},
+      {id: 6, head: "(questions)", para: "(answers)"},
+      {id: 7, head: "(questions)", para: "(answers)"},
+      {id: 8, head: "(questions)", para: "(answers)"},
+    ], - must don't remove end comma
+
+15.Create seo friendly keyword Yamaha R6 in js array format, put in one line.. on terminal
+Create a listing and fill into above js code in below  on terminal windows
+        keysearch : [(must fill the keywords one more time dont skip)], 
