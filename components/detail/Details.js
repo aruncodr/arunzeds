@@ -210,7 +210,7 @@ export default async function Details({slug}) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}/>
 
         <div className='lg:flex mt-15 lg:mt-20'>
-            <div className='lg:w-8/12 pt-4 lg:px-4 text-[18px] tracking-wide bg-white'>
+            <div className='lg:w-8/12 pt-4 lg:px-4 lg:pb-12 lg:mb-8  text-[18px] tracking-wide bg-white'>
               
               <h1 className='pl-3 text-2xl lg:text-3xl font-extrabold twoline'>{z?.h1}</h1>
               <time className='pl-3 py-2 text-[15px] text-gray-700'>{format(parseISO(createdate), "LLLL d, yyyy")} by <span className='text-blue-600'>Arunzed</span></time>
