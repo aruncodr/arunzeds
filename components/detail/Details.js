@@ -204,6 +204,40 @@ export default async function Details({slug}) {
     }
   ]
 
+  var newprice;
+  var servicecost;
+  function localeIsSupported(locale) {
+    try {
+      new Intl.NumberFormat(locale);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+  if (localeIsSupported('en-IN')) {
+    console.log("run inr pricing");
+    const {format} = new Intl.NumberFormat('en-IN',
+      {
+          style: 'currency',
+          currency: 'INR',
+          maximumFractionDigits: 0,
+      }
+    );
+    newprice = format(z?.inrprice);
+    servicecost = format(z?.service1inr) + " - " + format(z?.service2inr)
+  } else {
+    console.log("run usd pricing");
+    const {format} = new Intl.NumberFormat('en-US',
+      {
+          style: 'currency',
+          currency: 'USD',
+          maximumFractionDigits: 0,
+      }
+    );
+    newprice = format(z?.usdprice);
+    servicecost = format(z?.service1usd) + " - " + format(z?.service2usd)
+  }
+
   return (
     <div className='max-w-[1440px] lg:flex xl:px-24 mx-auto bg-[#F7F8F9]'>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(microdata) }}/>
@@ -230,10 +264,10 @@ export default async function Details({slug}) {
               
               <ul className='grid grid-cols-2 space-x-2 space-y-2 pl-6 pr-5 pt-2'>
                   <li className='bg-gray-100 py-2.5 text-center rounded-lg col-span-2'><div className='font-bold text-[22px]'>{z?.name}</div></li>
-                  <li className='bg-gray-100 py-2.5 text-center rounded-lg'><div className='font-semibold text-xl'>{z?.price}</div><div className='font-medium text-[15px]'>Ex-Showroom Price</div></li>
+                  <li className='bg-gray-100 py-2.5 text-center rounded-lg'><div className='font-semibold text-xl'>{newprice}</div><div className='font-medium text-[15px]'>Ex-Showroom Price</div></li>
                   <li className='bg-gray-100 py-2.5 text-center rounded-lg'><div className='font-semibold text-xl'>{z?.topspeed} <span className='text-base'>kmph</span></div><div className='font-medium text-[15px]'>Top Speed</div></li>
                   <li className='bg-gray-100 py-2.5 text-center rounded-lg'><div className='font-semibold text-xl'>{z?.mileage} <span className='text-base'>{z?.permileage}</span></div><div className='font-medium text-[15px]'> Mileage</div></li>
-                  <li className='bg-gray-100 py-2.5 text-center rounded-lg mr-2 mb-2'><div className='font-semibold text-xl'>{z?.servicecost}</div><div className='font-medium text-[15px]'>Serive cost</div></li>
+                  <li className='bg-gray-100 py-2.5 text-center rounded-lg mr-2 mb-2'><div className='font-semibold text-xl'>{servicecost}</div><div className='font-medium text-[15px]'>Serive cost</div></li>
               </ul>
               <h2 className="pt-4 pl-4 pr-2 text-lg font-medium text-gray-800 darks:text-white">Detail about Pricing, Top Speed, Mileage, service cost is below in this blog</h2>
 
