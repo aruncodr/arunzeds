@@ -81,7 +81,7 @@ function PageContent() {
             F<span className='leading-none text-xs'>REE </span>
             T<span className='leading-none text-xs'>IME</span>
           </h2>
-          <p className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`}>To Blog, Travel, take Photo graphs, and Explore Men's Lifestyles.</p>
+          <p className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`}>To Blog, Travel, take Photo graphs, and Explore Men&apos;s Lifestyles.</p>
       </div>
               {/* -------------------- MORE ---------------- */}
       <div>
