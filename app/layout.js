@@ -10,13 +10,13 @@ const urban = Urbanist({
 
 export const metadata = {
   title: {
-    default: "AZ Specs: Bikes, cars, EV's All About Automobiles -arun zeds",
+    default: "Arun zeds: Bikes, cars, EV's All About Automobiles -arun zeds",
     // template: "%s - Mother Motors"
   },
   // other: {
   //   "google-adsense-account": "ca-pub-8984092184352457",
   // },
-  description: "AZ Specs - Bikes, cars, and upcoming automobiles - Specification, pricing, mileage, topspeed, modifications, features  and maintainence cost - arun zeds",
+  description: "Arun zeds - Bikes, cars, and upcoming automobiles - Specification, pricing, mileage, topspeed, modifications, features  and maintainence cost - arun zeds",
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL),
   robots: 'follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large',
   keywords: [
@@ -25,7 +25,7 @@ export const metadata = {
     "Best car accessories","Luxury car models","Car maintenance tips","Motorcycle news","Motorcycle upgrades","Car customization ideas",
     "Best electric motorcycles","Vehicle performance upgrades","Future car technology","Car buying guide","Best bikes for commuting","New bike launches"
   ],
-  authors: [{ name: "Arun Zed", url: "https://www.azspecs.com/" }],
+  authors: [{ name: "Arun Zed", url: "https://www.arunzeds.com/" }],
   creator: "Arun Zed",
   publisher: "Arun Zed",
   openGraph: {
@@ -34,14 +34,14 @@ export const metadata = {
     url: "/",
     publisherTime: "",
     authors: 'arun zed',
-    title: `AZ Specs - Bikes, cars, EV's and All About Automobiles`,
-    description: "AZ Specs - Bikes, cars, and upcoming automobiles - Specification, pricing, mileage, topspeed, modifications, features  and maintainence cost",
+    title: `Arun zeds - Bikes, cars, EV's and All About Automobiles`,
+    description: "Arun zeds - Bikes, cars, and upcoming automobiles - Specification, pricing, mileage, topspeed, modifications, features  and maintainence cost",
     siteName: "azspecs.com",
     images: [{
       url: "/icon.png",
       width: 1200,
       height: 720,
-      alt: "AZ Specs - Bikes, cars, EV's and All About Automobiles",
+      alt: "Arun zeds - Bikes, cars, EV's and All About Automobiles",
     }],
   },
   twitter: {
@@ -53,7 +53,7 @@ export const metadata = {
     shortcut: "/icon.png",
     apple: "/apple-icon.png",
   },
-  manifest: "https://www.azspecs.com/site.webmanifest",
+  manifest: "https://www.arunzeds.com/site.webmanifest",
   alternates: {
     canonical: `/`,
     languages: { "en-US": "/en-US", },

@@ -9,22 +9,22 @@ const lato = Lato({ subsets: ['latin'],
 function PageContent() {
   return (
     <div>
-      <div className='text-white z-50'>arun</div>
+      <div className='text-red-600 z-50'></div>
 
-    <div className='bg-white mx-auto text-gray-800 pt-20 w--[820px] w-[794px] h-[1122px]'>
+    <div  className='bg-white mx-auto text-gray-800 pt-8 pt--20 w--[820px] w-[794px] h-[1122px]'>
 
       <div className='leading-[52px]'>
         <div className='text-[#666666] font-light text-center text-[48px]'>Arunkumar</div>
         <div className='text-[#666666] leading-[18px] text-center text-[16px]'>
            <div className={lato.className}>
-           <a target="_blank" rel="noopener noreferrer" href='https://arunzeds.com/'>arunzeds.com</a> &nbsp;|&nbsp; 
+           <a target="_blank" rel="noopener noreferrer" href='https://arunzeds.com/arunzeds'>arunzeds.com</a> &nbsp;|&nbsp; 
            <a target="_blank" rel="noopener noreferrer" href='https://github.com/aruncodr'>github/aruncodr</a><br />
            <span className='text-[14px] leading-6'><a href='tel:+919092131783'>9786787507</a></span> &nbsp;|&nbsp; 
            <a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'>arunzeds@gmail.com</a></div>
         </div>
       </div>
 
-      <div className="h-[1px] mt-2 bg-gray-400 border-1 border-gray-400 dark:bg-gray-400" ></div>
+      <div className="h-[1px] mt-2 bg-gray-400 border-[] border-gray-400 dark:bg-gray-400" ></div>
 
       <div className='grid grid-cols-3 pt-1 px-10 '>
 
@@ -94,10 +94,11 @@ function PageContent() {
             B<span className='text-[12px]'>UILDER</span></div>
           </h2>
           <p className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`}>Our website helps users create and customize professional resumes, enhancing their job prospects.</p>
-          <h2 className='text-[#666666] text-[13px]'>
+          <h2 className='leading-none pt-2 font-semibold text-sm'>
+          <div className='text-[#666666] text-[13px]'>
             3<span className='text-[12px]'>D </span>
             P<span className='text-[12px]'>ORTFOLIO - </span>
-            T<span className='text-[12px]'>hree JS</span>
+            T<span className='text-[12px]'>hree JS</span></div>
           </h2>
           <p className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`}>A 3D Portfolio is an interactive, three-dimensional digital showcase of my projects.</p>
 
@@ -149,7 +150,7 @@ function PageContent() {
           </h2>
           <h3 className={` ${lato.className} leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium`}>
           {/* <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>mothercabs.com</a> &nbsp;|&nbsp;  */}
-          Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Appwrite</h3>
+          Tailwind &nbsp;|&nbsp; React js &nbsp;|&nbsp; Next JS &nbsp;|&nbsp; Mongo DB</h3>
           <ul role="list" className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`}>
             <li>A Cab Booking System is essentially an online platform where users can request a taxi ride by selecting their desired vehicle type, 
                 input ting their pickup and drop-off locations.</li>
@@ -167,7 +168,7 @@ function PageContent() {
           </h2>
           <h3 className={` ${lato.className} leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium`}>
           {/* <a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp;  */}
-          Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
+          Tailwind &nbsp;|&nbsp; React js &nbsp;|&nbsp; Next JS</h3>
           <ul role="list" className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`}>
             <li>AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.</li>
             <li>The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
@@ -183,7 +184,7 @@ function PageContent() {
           </h2>
           <h3 className={` ${lato.className} leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium`}>
           {/* <a target="_blank" rel="noopener noreferrer" href='https://pondystore.com/'>pondystore.com</a> &nbsp;|&nbsp;  */}
-          Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Appwrite</h3>
+          Tailwind &nbsp;|&nbsp; React js &nbsp;|&nbsp; Next JS</h3>
           <ul role="list" className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`}>
             <li>Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. </li>
             <li>My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.</li>
@@ -195,9 +196,9 @@ function PageContent() {
   </div>
 
 
-</div>
+    </div>
 
-<div className='border rounded-lg border-gray-600 mb-20 py-2 px-6 w-fit mx-auto'>
+<div className='border rounded-lg border-gray-600 mb-12 py-2 px-6 w-fit mx-auto'>
   <Link className='text-gray-600 flex gap-2 items-center justify-center font-medium' 
     href='/cv/arun_cv.pdf'
     target='_blank'
@@ -209,8 +210,17 @@ function PageContent() {
     </svg>
 
 
-      Downlaod CV
+      Download CV
   </Link>
+</div>
+<div className='w-[794px] text-sm mx-auto mb-8'>
+  <div className='border mt-2  rounded-lg text-[#ffffff] bg-[#121212]'>
+        <div className='py-2 px-4  rounded-t-lg bg-gray-600 text-gray-300 '>Source code</div>
+        <div className='py-2 px-4'>
+            Full Source code
+        </div>
+
+  </div>
 </div>
 
 </div>
