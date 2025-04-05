@@ -13,7 +13,7 @@ export default function App() {
         <nav className=" px-3.5 flex items-center justify-between w-full max-w-7xl mx-auto">
           <Link href='/' className="flex items-center gap-x-3 z-40 relative">
             <Image src='/more/logo_white_png.svg' alt="az specs" className="size-8" width={16} height={16} />
-            <h3 className="text-lg font-semibold">Pondy Store</h3>
+            <h3 className="text-lg font-semibold">Arun zeds</h3>
           </Link>
 
           <ul className="gap-x-1 lg:flex items-center hidden">
