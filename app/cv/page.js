@@ -1,13 +1,16 @@
 import React from 'react'
 import { Lato } from 'next/font/google'
+import Link from 'next/link'
 
 const lato = Lato({ subsets: ['latin'],
   weight: ['100','300','400','700','900'],
-
 })
 
 function PageContent() {
   return (
+    <div>
+      <div className='text-white z-50'>arun</div>
+
     <div className='bg-white mx-auto text-gray-800 pt-20 w--[820px] w-[794px] h-[1122px]'>
 
       <div className='leading-[52px]'>
@@ -83,7 +86,7 @@ function PageContent() {
               {/* -------------------- MORE ---------------- */}
       <div>
           <h1 className={` ${lato.className} leading-none text-[#525659] text-2xl pt-3 font-light`}>MORE</h1>
-          <h2 className=''>
+          <h2 className='leading-none pt-2 font-semibold text-sm'>
             <span className='leading-none font-bold'>CRAFTS</span> &nbsp;|&nbsp; 
             P<span className='leading-none text-xs '>ROJECTS</span>
             <div className='pt-1.5 text-[#666666] text-[13px]'>
@@ -145,7 +148,8 @@ function PageContent() {
             A<span className='leading-none text-xs'>PI</span>
           </h2>
           <h3 className={` ${lato.className} leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium`}>
-          <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>mothercabs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Appwrite</h3>
+          {/* <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>mothercabs.com</a> &nbsp;|&nbsp;  */}
+          Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Appwrite</h3>
           <ul role="list" className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`}>
             <li>A Cab Booking System is essentially an online platform where users can request a taxi ride by selecting their desired vehicle type, 
                 input ting their pickup and drop-off locations.</li>
@@ -162,7 +166,8 @@ function PageContent() {
             W<span className='leading-none text-xs'>EBSITE</span>
           </h2>
           <h3 className={` ${lato.className} leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium`}>
-          <a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
+          {/* <a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'>azspecs.com</a> &nbsp;|&nbsp;  */}
+          Tailwind &nbsp;|&nbsp; Next js &nbsp;|&nbsp; Mongo db</h3>
           <ul role="list" className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`}>
             <li>AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.</li>
             <li>The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
@@ -173,11 +178,12 @@ function PageContent() {
             <span className='leading-none font-bold'>PONDY STORE</span> &nbsp;|&nbsp; 
             E<span className='leading-none text-xs'>XPLORE </span>
             P<span className='leading-none text-xs'>ONDICHERRY</span> &nbsp;|&nbsp; 
-            T<span className='leading-none text-xs'>ORSIUM</span> &nbsp;|&nbsp; 
+            T<span className='leading-none text-xs'>OURISM</span> &nbsp;|&nbsp; 
             S<span className='leading-none text-xs'>HOPPING</span>
           </h2>
           <h3 className={` ${lato.className} leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium`}>
-          <a target="_blank" rel="noopener noreferrer" href='https://pondystore.com/'>pondystore.com</a> &nbsp;|&nbsp; Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Appwrite</h3>
+          {/* <a target="_blank" rel="noopener noreferrer" href='https://pondystore.com/'>pondystore.com</a> &nbsp;|&nbsp;  */}
+          Tailwind &nbsp;|&nbsp; React &nbsp;|&nbsp; Appwrite</h3>
           <ul role="list" className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`}>
             <li>Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. </li>
             <li>My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.</li>
@@ -187,6 +193,25 @@ function PageContent() {
     </div>
 
   </div>
+
+
+</div>
+
+<div className='border rounded-lg border-gray-600 mb-20 py-2 px-6 w-fit mx-auto'>
+  <Link className='text-gray-600 flex gap-2 items-center justify-center font-medium' 
+    href='/cv/arun_cv.pdf'
+    target='_blank'
+    alt='my cv'
+    rel='noopener noreferrer'
+    >
+    <svg className="w-6 h-6 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01"/>
+    </svg>
+
+
+      Downlaod CV
+  </Link>
+</div>
 
 </div>
   )
