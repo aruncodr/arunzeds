@@ -200,119 +200,120 @@ function PageContent() {
   <div className='border mt-2 overflow-scroll h-[500px] rounded-lg text-[#ffffff] bg-[#121212]'>
         <div className='py-2 px-4  rounded-t-lg bg-gray-600 text-gray-300 '>Source code</div>
         <div className='py-2 px-4'>
-<pre><code>
 
-<br></br>import React from 'react'
-<br></br>import &#123; Lato &#125; from 'next/font/google'
-<br></br>import Link from 'next/link'
+        <pre><code>
+
+<br></br>import React from &apos;react&apos;
+<br></br>import &#123; Lato &#125; from &apos;next/font/google&apos;
+<br></br>import Link from &apos;next/link&apos;
 <br></br>
-<br></br>const lato = Lato(&#123; subsets: ['latin'],
-<br></br>  weight: ['100','300','400','700','900'],
+<br></br>const lato = Lato(&#123; subsets: [&apos;latin&apos;],
+<br></br>  weight: [&apos;100&apos;,&apos;300&apos;,&apos;400&apos;,&apos;700&apos;,&apos;900&apos;],
 <br></br>  &#125;)
 <br></br>
 <br></br>export default function PageContent() &#123;
 <br></br>  return (
-<br></br>&lt;div  className='bg-white mx-auto text-gray-800 pt-20 w-[794px] h-[1122px]'&gt;
-<br></br>  &lt;div className='leading-[52px]'&gt;
-<br></br>    &lt;div className='text-[#666666] font-light text-center text-[48px]'&gt;Arunkumar&lt;/div&gt;
-<br></br>    &lt;div className='text-[#666666] leading-[18px] text-center text-[16px]'&gt;
+<br></br>&lt;div  className=&apos;bg-white mx-auto text-gray-800 pt-20 w-[794px] h-[1122px]&apos;&gt;
+<br></br>  &lt;div className=&apos;leading-[52px]&apos;&gt;
+<br></br>    &lt;div className=&apos;text-[#666666] font-light text-center text-[48px]&apos;&gt;Arunkumar&lt;/div&gt;
+<br></br>    &lt;div className=&apos;text-[#666666] leading-[18px] text-center text-[16px]&apos;&gt;
 <br></br>       &lt;div className=&#123;lato.className&#125;&gt;
-<br></br>       &lt;a target="_blank" rel="noopener noreferrer" href='https://arunzeds.com/arunzeds'&gt;arunzeds.com&lt;/a&gt; &nbsp;|&nbsp; 
-<br></br>       &lt;a target="_blank" rel="noopener noreferrer" href='https://github.com/aruncodr'&gt;github/aruncodr&lt;/a&gt;&lt;br /&gt;
-<br></br>       &lt;span className='text-[14px] leading-6'&gt;&lt;a href='tel:+919092131783'&gt;9786787507&lt;/a&gt;&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>       &lt;a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'&gt;arunzeds@gmail.com&lt;/a&gt;&lt;/div&gt;
+<br></br>       &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://arunzeds.com/arunzeds&apos;&gt;arunzeds.com&lt;/a&gt; &nbsp;|&nbsp; 
+<br></br>       &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://github.com/aruncodr&apos;&gt;github/aruncodr&lt;/a&gt;&lt;br /&gt;
+<br></br>       &lt;span className=&apos;text-[14px] leading-6&apos;&gt;&lt;a href=&apos;tel:+919092131783&apos;&gt;9786787507&lt;/a&gt;&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>       &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;mailto: arunzeds@gmail.com&apos;&gt;arunzeds@gmail.com&lt;/a&gt;&lt;/div&gt;
 <br></br>    &lt;/div&gt;
 <br></br>  &lt;/div&gt;
-<br></br>  &lt;div className="h-[1px] mt-2 bg-gray-400 border-[] border-gray-400 dark:bg-gray-400" &gt;&lt;/div&gt;
+<br></br>  &lt;div className=&quot;h-[1px] mt-2 bg-gray-400 border-[] border-gray-400 dark:bg-gray-400&quot; &gt;&lt;/div&gt;
 <br></br>
-<br></br>  &lt;div className='grid grid-cols-3 pt-1 px-10 '&gt;
-<br></br>  &lt;div className='pr-8 leading-none FIRSTSECTION'&gt;
+<br></br>  &lt;div className=&apos;grid grid-cols-3 pt-1 px-10 &apos;&gt;
+<br></br>  &lt;div className=&apos;pr-8 leading-none FIRSTSECTION&apos;&gt;
 <br></br>    &#123;/* ------------ LINK ------------ */&#125;
 <br></br>    &lt;div&gt;
 <br></br>        &lt;h1 className=&#123;` $&#123;lato.className&#125; leading-none text-[#525659] text-2xl pt-3 font-light`&#125;&gt;LINKS&lt;/h1&gt;
-<br></br>        &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>          &lt;span className='leading-none font-bold'&gt;ABOUT&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>          P&lt;span className='leading-none text-xs'&gt;ORTFOLIO&lt;/span&gt;
+<br></br>        &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>          &lt;span className=&apos;leading-none font-bold&apos;&gt;ABOUT&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>          P&lt;span className=&apos;leading-none text-xs&apos;&gt;ORTFOLIO&lt;/span&gt;
 <br></br>        &lt;/h2&gt;
-<br></br>        &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;&lt;a target="_blank" rel="noopener noreferrer" href='https://arunzeds.com/arunzeds'&gt;arunzeds.com/arunzeds&lt;/a&gt;&lt;/p&gt;
-<br></br>        &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>           &lt;span className='leading-none font-bold'&gt;RESUME&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>           CV&lt;span className='leading-none text-xs'&gt;&lt;/span&gt;
+<br></br>        &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://arunzeds.com/arunzeds&apos;&gt;arunzeds.com/arunzeds&lt;/a&gt;&lt;/p&gt;
+<br></br>        &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>           &lt;span className=&apos;leading-none font-bold&apos;&gt;RESUME&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>           CV&lt;span className=&apos;leading-none text-xs&apos;&gt;&lt;/span&gt;
 <br></br>        &lt;/h2&gt;
-<br></br>        &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;&lt;a target="_blank" rel="noopener noreferrer" href='https://arunzeds.com/cv'&gt;arunzeds.com/cv&lt;/a&gt;&lt;/p&gt;
-<br></br>        &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>           &lt;span className='leading-none font-bold'&gt;PROFILE&lt;/span&gt;
+<br></br>        &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://arunzeds.com/cv&apos;&gt;arunzeds.com/cv&lt;/a&gt;&lt;/p&gt;
+<br></br>        &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>           &lt;span className=&apos;leading-none font-bold&apos;&gt;PROFILE&lt;/span&gt;
 <br></br>        &lt;/h2&gt;
-<br></br>        &lt;p className='leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light'&gt;
-<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target="_blank" rel="noopener noreferrer" href='https://in.pinterest.com/aruncodr/'&gt;Pintest/arunzeds&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
-<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target="_blank" rel="noopener noreferrer" href='https://linkedin.com/in/arunzeds'&gt;Linked.in/arunzeds&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
-<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target="_blank" rel="noopener noreferrer" href='https://github.com/aruncodr'&gt;github/aruncodr&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
+<br></br>        &lt;p className=&apos;leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light&apos;&gt;
+<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://in.pinterest.com/aruncodr/&apos;&gt;Pintest/arunzeds&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
+<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://linkedin.com/in/arunzeds&apos;&gt;Linked.in/arunzeds&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
+<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://github.com/aruncodr&apos;&gt;github/aruncodr&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
 <br></br>        &lt;/p&gt;
-<br></br>        &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>           &lt;span className='leading-none font-bold'&gt;CONTACT&lt;/span&gt;
+<br></br>        &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>           &lt;span className=&apos;leading-none font-bold&apos;&gt;CONTACT&lt;/span&gt;
 <br></br>        &lt;/h2&gt;
-<br></br>        &lt;p className='leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light'&gt;
-<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a href='tel:+919092131783'&gt;9786787507&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
-<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target="_blank" rel="noopener noreferrer" href='https://maps.app.goo.gl/irQF5WG2HxAkpNno9'&gt;Pondicherry&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
-<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target="_blank" rel="noopener noreferrer" href='mailto: arunzeds@gmail.com'&gt;arunzeds@gmail.com&lt;/a&gt;
+<br></br>        &lt;p className=&apos;leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light&apos;&gt;
+<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a href=&apos;tel:+919092131783&apos;&gt;9786787507&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
+<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://maps.app.goo.gl/irQF5WG2HxAkpNno9&apos;&gt;Pondicherry&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
+<br></br>        &lt;span className=&#123;lato.className&#125;&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;mailto: arunzeds@gmail.com&apos;&gt;arunzeds@gmail.com&lt;/a&gt;
 <br></br>        &lt;/span&gt;&lt;br /&gt;
 <br></br>        &lt;/p&gt;
 <br></br>  &lt;/div&gt;
 <br></br>  &#123;/* ----------------- OTHER PERKS -------------- */&#125;
 <br></br>  &lt;div&gt;
 <br></br>      &lt;h1 className=&#123;` $&#123;lato.className&#125; leading-none text-[#525659] text-2xl pt-3 font-light`&#125;&gt;OTHER PERKS&lt;/h1&gt;
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;FOCUS&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        L&lt;span className='leading-none text-xs'&gt;EARNING &lt;/span&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;FOCUS&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        L&lt;span className=&apos;leading-none text-xs&apos;&gt;EARNING &lt;/span&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;Continue Focusing on Full-Stack Development and DevOps.&lt;/p&gt;
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;COMMUNICATE&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        L&lt;span className='leading-none text-xs'&gt;ANGUAGES&lt;/span&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;COMMUNICATE&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        L&lt;span className=&apos;leading-none text-xs&apos;&gt;ANGUAGES&lt;/span&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;Speaks Native Tamil, Conversational English.&lt;/p&gt;
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;MORE&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        F&lt;span className='leading-none text-xs'&gt;REE &lt;/span&gt;
-<br></br>        T&lt;span className='leading-none text-xs'&gt;IME&lt;/span&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;MORE&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        F&lt;span className=&apos;leading-none text-xs&apos;&gt;REE &lt;/span&gt;
+<br></br>        T&lt;span className=&apos;leading-none text-xs&apos;&gt;IME&lt;/span&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;To Blog, Travel, take Photo graphs, and Explore Men&apos;s Lifestyles.&lt;/p&gt;
 <br></br>  &lt;/div&gt;
 <br></br>    &#123;/* -------------------- MORE ---------------- */&#125;
 <br></br>  &lt;div&gt;
 <br></br>      &lt;h1 className=&#123;` $&#123;lato.className&#125; leading-none text-[#525659] text-2xl pt-3 font-light`&#125;&gt;MORE&lt;/h1&gt;
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;CRAFTS&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        P&lt;span className='leading-none text-xs '&gt;ROJECTS&lt;/span&gt;
-<br></br>        &lt;div className='pt-1.5 text-[#666666] text-[13px]'&gt;
-<br></br>        R&lt;span className='text-[12px]'&gt;ESUME &lt;/span&gt;
-<br></br>        B&lt;span className='text-[12px]'&gt;UILDER&lt;/span&gt;&lt;/div&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;CRAFTS&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        P&lt;span className=&apos;leading-none text-xs &apos;&gt;ROJECTS&lt;/span&gt;
+<br></br>        &lt;div className=&apos;pt-1.5 text-[#666666] text-[13px]&apos;&gt;
+<br></br>        R&lt;span className=&apos;text-[12px]&apos;&gt;ESUME &lt;/span&gt;
+<br></br>        B&lt;span className=&apos;text-[12px]&apos;&gt;UILDER&lt;/span&gt;&lt;/div&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;Our website helps users create and customize professional resumes, enhancing their job prospects.&lt;/p&gt;
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>      &lt;div className='text-[#666666] text-[13px]'&gt;
-<br></br>        3&lt;span className='text-[12px]'&gt;D &lt;/span&gt;
-<br></br>        P&lt;span className='text-[12px]'&gt;ORTFOLIO - &lt;/span&gt;
-<br></br>        T&lt;span className='text-[12px]'&gt;hree JS&lt;/span&gt;&lt;/div&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>      &lt;div className=&apos;text-[#666666] text-[13px]&apos;&gt;
+<br></br>        3&lt;span className=&apos;text-[12px]&apos;&gt;D &lt;/span&gt;
+<br></br>        P&lt;span className=&apos;text-[12px]&apos;&gt;ORTFOLIO - &lt;/span&gt;
+<br></br>        T&lt;span className=&apos;text-[12px]&apos;&gt;hree JS&lt;/span&gt;&lt;/div&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;A 3D Portfolio is an interactive, three-dimensional digital showcase of my projects.&lt;/p&gt;
 <br></br>  &lt;/div&gt;
 <br></br>&lt;/div&gt;
 <br></br>&#123;/* **************************** Second column ************************************* */&#125;
-<br></br>&lt;div className='col-span-2 pl-4 pr-2'&gt;
+<br></br>&lt;div className=&apos;col-span-2 pl-4 pr-2&apos;&gt;
 <br></br>  &#123;/* ------------------SKILLS---------------- */&#125;
 <br></br>  &lt;div&gt;
 <br></br>      &lt;h1 className=&#123;` $&#123;lato.className&#125; leading-none text-[#525659] text-2xl pt-3 font-light`&#125;&gt;SKILLS&lt;/h1&gt;
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;FRONT &lt;/span&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;END&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        L&lt;span className='leading-none text-xs'&gt;IBRARIES &lt;/span&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;FRONT &lt;/span&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;END&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        L&lt;span className=&apos;leading-none text-xs&apos;&gt;IBRARIES &lt;/span&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;Tailwind, JavaScript, React, Next.js&lt;/p&gt;
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;TECH&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        D&lt;span className='leading-none text-xs'&gt;ESIGNING &lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        T&lt;span className='leading-none text-xs'&gt;OOLS&lt;/span&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;TECH&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        D&lt;span className=&apos;leading-none text-xs&apos;&gt;ESIGNING &lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        T&lt;span className=&apos;leading-none text-xs&apos;&gt;OOLS&lt;/span&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;Attentive to UI/UX details and high quality.&lt;br /&gt;Flow on Figma and Adobe Illustator.
 <br></br>      &lt;br /&gt;Backend with app write. Fan of Github.&lt;br /&gt;Hands on Search engine optimization.&lt;/p&gt;
@@ -320,28 +321,28 @@ function PageContent() {
 <br></br>  &#123;/* ----------------- EDUCATION -------------- */&#125;
 <br></br>  &lt;div&gt;
 <br></br>      &lt;h1 className=&#123;` $&#123;lato.className&#125; leading-none text-[#525659] text-2xl pt-3 font-light`&#125;&gt;EDUCATION&lt;/h1&gt;
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;UNDER GRADUATE&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        C&lt;span className='leading-none text-xs'&gt;OMPUTER &lt;/span&gt;
-<br></br>        S&lt;span className='leading-none text-xs'&gt;CIENCE&lt;/span&gt;&lt;br /&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;UNDER GRADUATE&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        C&lt;span className=&apos;leading-none text-xs&apos;&gt;OMPUTER &lt;/span&gt;
+<br></br>        S&lt;span className=&apos;leading-none text-xs&apos;&gt;CIENCE&lt;/span&gt;&lt;br /&gt;
 <br></br>      &lt;/h2&gt;
-<br></br>      &lt;div className='leading-none pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium'&gt;Bachelor of Computer Applications - B.C.A&lt;/div&gt;
+<br></br>      &lt;div className=&apos;leading-none pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium&apos;&gt;Bachelor of Computer Applications - B.C.A&lt;/div&gt;
 <br></br>      &lt;p className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`&#125;&gt;Sri Aravindar Arts and Science College&lt;br /&gt;College in Tamil Nadu&lt;/p&gt;
 <br></br>  &lt;/div&gt;
 <br></br>  &#123;/* ---------------PROJECT EXPERIENCE------------ */&#125;
 <br></br>  &lt;div&gt;
 <br></br>      &lt;h1 className=&#123;` $&#123;lato.className&#125; leading-none text-[#525659] text-2xl pt-3 font-light`&#125;&gt;PROJECT EXPERIENCE&lt;/h1&gt;
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;MOTHER CABS&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        C&lt;span className='leading-none text-xs'&gt;AB &lt;/span&gt;
-<br></br>        B&lt;span className='leading-none text-xs'&gt;OOKING&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        G&lt;span className='leading-none text-xs'&gt;OOGLE &lt;/span&gt;
-<br></br>        A&lt;span className='leading-none text-xs'&gt;PI&lt;/span&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;MOTHER CABS&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        C&lt;span className=&apos;leading-none text-xs&apos;&gt;AB &lt;/span&gt;
+<br></br>        B&lt;span className=&apos;leading-none text-xs&apos;&gt;OOKING&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        G&lt;span className=&apos;leading-none text-xs&apos;&gt;OOGLE &lt;/span&gt;
+<br></br>        A&lt;span className=&apos;leading-none text-xs&apos;&gt;PI&lt;/span&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;h3 className=&#123;` $&#123;lato.className&#125; leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium`&#125;&gt;
-<br></br>      &#123;/* &lt;a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'&gt;mothercabs.com&lt;/a&gt; &nbsp;|&nbsp;  */&#125;
+<br></br>      &#123;/* &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://mothercabs.com/&apos;&gt;mothercabs.com&lt;/a&gt; &nbsp;|&nbsp;  */&#125;
 <br></br>      Tailwind &nbsp;|&nbsp; React js &nbsp;|&nbsp; Next JS &nbsp;|&nbsp; Mongo DB&lt;/h3&gt;
-<br></br>      &lt;ul role="list" className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`&#125;&gt;
+<br></br>      &lt;ul role=&quot;list&quot; className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`&#125;&gt;
 <br></br>        &lt;li&gt;A Cab Booking System is essentially an online platform where users can request a taxi ride by selecting their desired vehicle type, 
 <br></br>            input ting their pickup and drop-off locations.&lt;/li&gt;
 <br></br>        
@@ -350,32 +351,32 @@ function PageContent() {
 <br></br>        &lt;li&gt; The system automatically notify to my client authorized drivers to pick them up.&lt;/li&gt;
 <br></br>      &lt;/ul&gt;
 <br></br>
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;AZ SPECS&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        M&lt;span className='leading-none text-xs'&gt;OBILE &lt;/span&gt;
-<br></br>        S&lt;span className='leading-none text-xs'&gt;PECIFICATION &lt;/span&gt;
-<br></br>        W&lt;span className='leading-none text-xs'&gt;EBSITE&lt;/span&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;AZ SPECS&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        M&lt;span className=&apos;leading-none text-xs&apos;&gt;OBILE &lt;/span&gt;
+<br></br>        S&lt;span className=&apos;leading-none text-xs&apos;&gt;PECIFICATION &lt;/span&gt;
+<br></br>        W&lt;span className=&apos;leading-none text-xs&apos;&gt;EBSITE&lt;/span&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;h3 className=&#123;` $&#123;lato.className&#125; leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium`&#125;&gt;
-<br></br>      &#123;/* &lt;a target="_blank" rel="noopener noreferrer" href='https://azspecs.com/'&gt;azspecs.com&lt;/a&gt; &nbsp;|&nbsp;  */&#125;
+<br></br>      &#123;/* &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://azspecs.com/&apos;&gt;azspecs.com&lt;/a&gt; &nbsp;|&nbsp;  */&#125;
 <br></br>      Tailwind &nbsp;|&nbsp; React js &nbsp;|&nbsp; Next JS&lt;/h3&gt;
-<br></br>      &lt;ul role="list" className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`&#125;&gt;
+<br></br>      &lt;ul role=&quot;list&quot; className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`&#125;&gt;
 <br></br>        &lt;li&gt;AZ Spces is newly recognized as one of the top resources for in-depth technical information on mobile phones.&lt;/li&gt;
 <br></br>        &lt;li&gt;The site offers extensive specifications and comparisons across a large database of smartphone models, covering aspects 
 <br></br>            like display, processor, camera, battery, and other hardware components.&lt;/li&gt;
 <br></br>      &lt;/ul&gt;
 <br></br>
-<br></br>      &lt;h2 className='leading-none pt-2 font-semibold text-sm'&gt;
-<br></br>        &lt;span className='leading-none font-bold'&gt;PONDY STORE&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        E&lt;span className='leading-none text-xs'&gt;XPLORE &lt;/span&gt;
-<br></br>        P&lt;span className='leading-none text-xs'&gt;ONDICHERRY&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        T&lt;span className='leading-none text-xs'&gt;OURISM&lt;/span&gt; &nbsp;|&nbsp; 
-<br></br>        S&lt;span className='leading-none text-xs'&gt;HOPPING&lt;/span&gt;
+<br></br>      &lt;h2 className=&apos;leading-none pt-2 font-semibold text-sm&apos;&gt;
+<br></br>        &lt;span className=&apos;leading-none font-bold&apos;&gt;PONDY STORE&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        E&lt;span className=&apos;leading-none text-xs&apos;&gt;XPLORE &lt;/span&gt;
+<br></br>        P&lt;span className=&apos;leading-none text-xs&apos;&gt;ONDICHERRY&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        T&lt;span className=&apos;leading-none text-xs&apos;&gt;OURISM&lt;/span&gt; &nbsp;|&nbsp; 
+<br></br>        S&lt;span className=&apos;leading-none text-xs&apos;&gt;HOPPING&lt;/span&gt;
 <br></br>      &lt;/h2&gt;
 <br></br>      &lt;h3 className=&#123;` $&#123;lato.className&#125; leading-none pb-0.5 pt-1.5 text-[#666666] tracking-wide text-[13px] font-medium`&#125;&gt;
-<br></br>      &#123;/* &lt;a target="_blank" rel="noopener noreferrer" href='https://pondystore.com/'&gt;pondystore.com&lt;/a&gt; &nbsp;|&nbsp;  */&#125;
+<br></br>      &#123;/* &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&apos;https://pondystore.com/&apos;&gt;pondystore.com&lt;/a&gt; &nbsp;|&nbsp;  */&#125;
 <br></br>      Tailwind &nbsp;|&nbsp; React js &nbsp;|&nbsp; Next JS&lt;/h3&gt;
-<br></br>      &lt;ul role="list" className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`&#125;&gt;
+<br></br>      &lt;ul role=&quot;list&quot; className=&#123;` $&#123;lato.className&#125; leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light marker:text-[#666666] list-disc pl-5 pr-1 space-y-0.5`&#125;&gt;
 <br></br>        &lt;li&gt;Pondystore is a concept designed to explore the tourist attractions and top shopping spots in Pondicherry. &lt;/li&gt;
 <br></br>        &lt;li&gt;My website assists travelers in making informed decisions by offering reviews, price comparisons, and offering services.&lt;/li&gt;
 <br></br>      &lt;/ul&gt;
@@ -385,19 +386,6 @@ function PageContent() {
 <br></br>&lt;/div&gt;
 <br></br>&lt;/div&gt;
 <br></br>)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </code>
 
