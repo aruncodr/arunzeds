@@ -11,7 +11,7 @@ function PageContent() {
     <div>
       <div className='text-red-600 z-50'></div>
 
-    <div  className='bg-white mx-auto text-gray-800 pt-8 pt--20 w--[820px] w-[794px] h-[1122px]'>
+    <div  className='bg-white mx-auto text-gray-800 pt--8 pt-20 w--[820px] w-[794px] h-[1122px]'>
 
       <div className='leading-[52px]'>
         <div className='text-[#666666] font-light text-center text-[48px]'>Arunkumar</div>
