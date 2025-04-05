@@ -156,7 +156,14 @@ export default function Home() {
       <div className='lg:flex'>
         <div className="mx-4 lg:mx-auto p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
         <a target="_blank" rel="noopener noreferrer" href='https://mothercabs.com/'>
-            <Image className="h-[164px] object-contain shadow-sm" src="/arun/mothercabs.png" width={500} height={500} alt="mothercabs"></Image>
+            {/* <Image className="h-[164px] object-contain shadow-sm" src="/arun/mothercabs.png" width={500} height={500} alt="mothercabs"></Image> */}
+            <div className='h-40 pt-8'>
+              <div className='font-medium text-2xl flex items-center justify-center '>
+                <div className='text-stone-700 '>Mother&ensp;</div>
+                <div className='text-teal-700 '>Travels</div>
+              </div>
+              <div className='flex items-center justify-center'>mothercabs.com</div>
+            </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
             MOTHER CAB BOOKING PAGE
             </div>
@@ -178,7 +185,15 @@ export default function Home() {
 
         <div className="mx-4 lg:mx-auto mt-4 lg:mt-0 p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
-            <Image className="h-[164px] object-contain shadow-sm" src="/arun/l.png" width={500} height={500} alt="l"></Image>
+            {/* <Image className="h-[164px] object-contain shadow-sm" src="/arun/l.png" width={500} height={500} alt="l"></Image> */}
+            <div className='h-40 pt-8'>
+              <div className='font-medium text-2xl flex items-center justify-center '>
+                <div className='text-stone-700 '>Pondy&ensp;</div>
+                <div className='text-teal-700 '>Store</div>
+              </div>
+              <div className='flex items-center justify-center'>pondystore.com</div>
+            </div>
+
             </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
               PONDICHERRY TORISIUM
@@ -202,7 +217,14 @@ export default function Home() {
     <div className='lg:flex pt-4 lg:pt-12'>
     <div className="mx-4 lg:mx-auto p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
     <div className=''>
-    <Image className="h-[164px] object-contain shadow-sm" src="/arun/l.png" width={500} height={500} alt="l"></Image>
+    {/* <Image className="h-[164px] object-contain shadow-sm" src="/arun/l.png" width={500} height={500} alt="l"></Image> */}
+    <div className='h-40 pt-8'>
+              <div className='font-medium text-2xl flex items-center justify-center '>
+                <div className='text-stone-700 '>AZ&ensp;</div>
+                <div className='text-teal-700 '>Specs</div>
+              </div>
+              <div className='flex items-center justify-center'>azspecs.com</div>
+            </div>
     </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
               AZ MOBILE SPECIFICATION
@@ -226,7 +248,14 @@ export default function Home() {
         </div>
         <div className="mx-4 lg:mx-auto mt-4 lg:mt-0 p-5 lg:w-[500px] bg-white rounded-2xl shadow-sm">
             <div className=''>
-            <Image className="h-[164px] object-contain shadow-sm" src="/arun/l.png" width={500} height={500} alt='l'></Image>
+            {/* <Image className="h-[164px] object-contain shadow-sm" src="/arun/l.png" width={500} height={500} alt='l'></Image> */}
+            <div className='h-40 pt-8'>
+              <div className='font-medium text-2xl flex items-center justify-center '>
+                <div className='text-stone-700 '>Pondy&ensp;</div>
+                <div className='text-teal-700 '>Store</div>
+              </div>
+              <div className='flex items-center justify-center'>pondystore.com</div>
+            </div>
             </div>
             <div className={`tracking-wider pt-4 text-xl text-stone-700 font-medium`}>
               PONDICHERRY TORISIUM

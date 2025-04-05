@@ -106,14 +106,14 @@ function PageContent() {
             <span className='leading-none font-bold'>END</span> &nbsp;|&nbsp; 
             L<span className='leading-none text-xs'>IBRARIES </span>
           </h2>
-          <p className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`}>Tailwind, JavaScript, React, Next.js</p>
+          <p className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`}>Tailwind, JavaScript, React, Next JS</p>
           <h2 className='leading-none pt-2 font-semibold text-sm'>
             <span className='leading-none font-bold'>TECH</span> &nbsp;|&nbsp; 
             D<span className='leading-none text-xs'>ESIGNING </span> &nbsp;|&nbsp; 
             T<span className='leading-none text-xs'>OOLS</span>
           </h2>
           <p className={` ${lato.className} leading-5 pb-1 text-black pt-0.5 tracking-wide text-sm font-light`}>Attentive to UI/UX details and high quality.<br />Flow on Figma and Adobe Illustator.
-          <br />Backend with app write. Fan of Github.<br />Hands on Search engine optimization.</p>
+          <br />Backend with Mongo DB. Fan of Github.<br />Hands on Search engine optimization.</p>
       </div>
       {/* ----------------- EDUCATION -------------- */}
       <div>
