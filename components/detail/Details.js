@@ -345,6 +345,41 @@ export default async function Details({slug}) {
               {z?.listfourteen ? <List nolisthead={z?.nolistheadfourteen} list={z?.listfourteen} type={z?.listfourteentype}/>:null}
               <p className='text-gary-700 pl-4 pt-1 pr-1 lg:pr-4'>{z?.parafourteen1} <span className='font-semibold'>{z?.parafourteen2}</span> {z?.parafourteen3}</p>
 
+
+              <div className='lg:flex gap-8 pt-10 px-4 lg:px-8'>
+            <Link href={"/bikes"} title='Bikes'>
+              <div className='pt-2 flex gap-2 items-start'>
+                <Image className='pt-1 object-contain ' src='/folder.png' width={16} height={16} alt={imgalt} title={z?.name}/>
+                <div className='text-base text-blue-600 darks:text-sky-400 font-medium tracking-wider'>Upcoming Bikes</div>
+              </div>
+            </Link>
+            <Link href={"/scooters"} title='Scooter'>
+              <div className='pt-2 flex gap-2 items-start'>
+                <Image className='pt-1 object-contain ' src='/folder.png' width={16} height={16} alt={imgalt} title={z?.name}/>
+                <div className='text-base text-blue-600 darks:text-sky-400 font-medium tracking-wider'>Upcoming Scooter</div>
+              </div>
+            </Link>
+            <Link href={"/cars"} title='Cars'>
+            <div className='pt-2 flex gap-2 items-start'>
+              <Image className='pt-1 object-contain ' src='/folder.png' width={16} height={16} alt={imgalt} title={z?.name}/>
+              <div className='text-base text-blue-600 darks:text-sky-400 font-medium tracking-wider'>Upcoming Cars</div>
+            </div>
+            </Link>
+          </div>
+          
+              <div className='px-4 lg:px-8 py-4 pb-6 flex gap-2 items-start'>
+                <Image className='pt-1 object-contain ' src='/tag.png' width={16} height={16} alt={imgalt} title={z?.name}/>
+                <Link href={`/search?query=${z?.name.slice(0,4)}`}>
+                    <div className='text-base hyphens-auto text-blue-600 darks:text-sky-400 font-medium tracking-wider'>{z?.keysearch.toString()}</div>
+                </Link>
+            </div>
+
+            <Link href={`/search?query=${z?.name.slice(0,4)}`}>
+              <div className='mx-10 mb-10 pb-6 w-fit font-normal text-gray-600 darks:text-gray-300 text-sm'># {z?.name}</div>         
+            </Link>
+
+
+
             </div>
 
             <div className='lg:w-4/12 h-96 lg:ml-4 lg:pl-6 pt-4 bg-white'>
