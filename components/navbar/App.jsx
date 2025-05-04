@@ -26,7 +26,7 @@ export default function App() {
             <div className="bg-white/5 z-[999] relative px-3 py-1.5 shadow rounded-xl flex-center">
               <Form action={"/search"} className="flex">
                 <input name='query' className="hidden lg:flex w-44 outline-none" />
-                <button role="button"><Search/></button>
+                <button aria-label='searchbar' alt='searchbar' role="button"><Search/></button>
               </Form>
             </div>
             <div className="lg:hidden">
