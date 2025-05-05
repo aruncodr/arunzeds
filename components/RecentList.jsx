@@ -5,7 +5,7 @@ import React from 'react'
 export default function RecentList({e}) {
   return (
     <li className='max-sm:pl-4'>
-        <Link aria-label={e.name} alt={e.name} className='grid grid-cols-4 items-center pt-3' href={`/${e.type}/${e.route}`} title={e.h1}>
+        <div className='grid grid-cols-4 items-center pt-3'  >
             <div className='relative h-[60px]'>
             <Image className='object-cover rounded-lg' alt={e.name} title={e.name}
               // priority
@@ -15,9 +15,10 @@ export default function RecentList({e}) {
               sizes='100vw'
               />
             </div>
-            <div className='col-span-3 text-[17px] font-semibold twoline px-3 w-full'>{e?.h1}</div>
+            <Link href={`/${e.type}/${e.route}`} title={e.name} aria-label={e.name} alt={e.name}
+            className='col-span-3 text-[17px] font-semibold twoline px-3 w-full'>{e?.h1}</Link>
 
-        </Link>
+        </div>
     </li>
   )
 }
