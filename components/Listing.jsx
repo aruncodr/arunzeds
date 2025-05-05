@@ -23,7 +23,7 @@ export default async function Listing({selectedpost}) {
             <div key={e.id} className={`${urban.className} bg-white shadow-sm dark:bg-slate-700 w-[380px]`}>
             <div className=''>
             {/* href={`/${e.type}/${e.route}`} */}
-              <Link className='flex flex-col items-center' href={`/${e.type}/${e.route}`} alt={e.h1} title={e.h1} aria-label={`open page of ${e.h1}`}>
+              <div className='flex flex-col items-center'>
                   <div className='relative w-[382px] h-[230px]'>
                       <Image className='object-fill' 
                       src={e.img} fill 
@@ -32,8 +32,10 @@ export default async function Listing({selectedpost}) {
                       blurDataURL={e.img}
                       priority/>
                   </div>
-                  <h2 className='twoline pl-4 pr-2 leading-8 text-[24px] pt-2.5 font-bold'>{e.h1}</h2>
-              </Link>
+                  <h2 className='twoline pl-4 pr-2 leading-8 text-[24px] pt-2.5 font-bold'>
+                    <Link href={`/${e.type}/${e.route}`} alt={e.h1} title={e.h1} aria-label={`open page of ${e.h1}`}>{e.h1}</Link>
+                  </h2>
+              </div>
               <time className='text-sm pl-4'>{format(parseISO(e.publishedAt), "LLLL d, yyyy")} by <span className='text-blue-600 dark:text-sky-400'>Arunzed</span></time>          
                   <p className='px-4 pt-4 pb-1 threeline text-base text-gray-500 font-medium dark:text-white tracking-wide '>{e?.desc} {e?.desc2} {e?.desc3}</p>
               </div>
