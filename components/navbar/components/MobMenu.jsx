@@ -26,6 +26,7 @@ export default function MobMenu({ Menus }) {
     <div>
       <button aria-label='close' alt='close' className="lg:hidden z-[999] relative" onClick={toggleDrawer}>
         {isOpen ? <X /> : <Menu />}
+        
       </button>
 
       <motion.div
